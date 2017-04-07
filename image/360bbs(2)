@@ -1,0 +1,1064 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<!--teser code @ 8080-->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE1" />            <title>360社区-360粉丝大本营，是360互联网安全软件、360手机、360智能硬件，360OS用户互动交流社区平台</title>
+    
+<meta name="keywords" content="360手机助手,360手机卫士,360云盘,360安全卫士下载,360浏览器,360手机Q5,360手机Q5Plus,360N4A,360手机N4S,360手机n4,360手机f4,360手机,360,奇酷手机,360OS,360os官网,360智能硬件" />
+<meta name="description" content="360社区是360粉丝大本营，集360互联网安全软件、360手机、360OS、智能硬件、好奇者试用于一体的粉丝交流社区。在这里你可以对我们的产品进行反馈、建议和分享360手机和360OS玩机心得。同时还可以参加专为360粉丝举办的各类同城活动。 " />
+<meta name="generator" content="Discuz! X3.1" />
+<meta name="MSSmartTagsPreventParsing" content="True" />
+<meta http-equiv="MSThemeCompatible" content="Yes" />
+<base href="http://bbs.360.cn/" /><link rel="stylesheet" type="text/css" href="http://bbs.360.cn/data/cache/style_4_common.css?r5x" /><script type="text/javascript">var STYLEID = '4', STATICURL = 'https://b1.qikucdn.com/static/', IMGDIR = 'https://b1.qikucdn.com/static/image/common/', VERHASH = 'r5x', charset = 'utf-8', discuz_uid = '0', cookiepre = 'yTGF__b9c2_', cookiedomain = '.bbs.360.cn', cookiepath = '/', showusercard = '1', attackevasive = '0', disallowfloat = 'newthread', creditnotice = '1|金币|,2|经验|', defaultstyle = '', REPORTURL = 'aHR0cDovL2Jicy4zNjAuY24vbmV3aW5kZXgucGhwP19fSVNfU1RBVElDPTE=', SITEURL = 'http://bbs.360.cn/', JSPATH = 'https://b1.qikucdn.com/static/js/', DYNAMICURL = '';</script>
+    <script src="https://b1.qikucdn.com/static/js/jquery.min.js?r5x" type="text/javascript"></script>
+    <script> var jq = jQuery.noConflict();</script>
+<script src="https://b1.qikucdn.com/static/js/common.js?r5x" type="text/javascript"></script>
+<!-- 	360用户中心登录开始
+<script src="http://js.passport.qihucdn.com/5.0.3.js" type="text/javascript" type="text/javascript"></script>
+360用户中心登录结束
+<style>
+#fwin_login{
+display: none;
+}
+</style> -->
+<meta name="application-name" content="360社区" />
+<meta name="msapplication-tooltip" content="360社区" />
+<meta name="msapplication-task" content="name=版块;action-uri=http://bbs.360.cn/forum.php;icon-uri=http://bbs.360.cn/https://b1.qikucdn.com/static/image/common//bbs.ico" />
+<meta name="msapplication-task" content="name=同城;action-uri=http://bbs.360.cn/group.php;icon-uri=http://bbs.360.cn/https://b1.qikucdn.com/static/image/common//group.ico" />
+                <script>
+            function mySayGood (e) {
+            	var x = e.clientX;
+            	var y = e.clientY;
+                var countObj = jq('#myZanCountsSpan');
+                jq.ajax({
+                    url:'apkapi/quotation.php',
+                    type:"post",
+                    dataType:"json",
+                    data:{op:'saygood'},
+                    success:function (msg) {
+                        if (msg.rs==='success'){
+                            countObj.html(parseInt(countObj.html())+1);
+                        }else{
+                        	alerts.show(msg.info,x,y);
+                            alerts.hide();
+                        }
+                    }
+                });
+            }
+            
+            var alerts = new Object();
+            alerts.id = "alterts_"+parseInt(1000*Math.random());
+            alerts.show = function (str,x,y) {
+            	var div=document.createElement('div');
+                div.id = this.id;
+                div.style.position =  "absolute"; //position: absolute;
+                div.style.top=(y-40)+"px";
+                div.style.left=(x+5)+"px";
+                div.style.background="#fff";
+                div.style.padding="5px 10px";
+                div.style.boxShadow="2px 2px 5px rgba(0,0,0,0.3)"; //box-shadow: 10px 10px 5px #888888;
+                div.style.borderRadius="5px";
+                
+                div.innerHTML = str;
+                document.body.appendChild(div);
+            }
+            alerts.hide = function () {
+                setTimeout(function(){
+                    jq("#"+alerts.id).hide(500,function(){
+                        document.body.removeChild(document.getElementById(alerts.id));
+                    });
+                },2000);
+            }
+            var coolyunAttachment = '1'=='1' ? "yes" : "no";
+            var coolyunS0 = 'file.coolyun.com';
+            var coolyunS1 = 'd1.coolyun.com';
+var coolyunS2 = 'file.c.qikucdn.com';
+        </script>
+        
+</head>
+
+<body id="nv_newindex" class="pg_index" onkeydown="if(event.keyCode==27) return false;">
+<div id="append_parent"></div><div id="ajaxwaitid"></div>
+<div id="qmenu_menu" class="p_pop blk qmenu_menu_coolpad" style="display:none;">
+<div class="ptm pbw hm">
+请 <a href="member.php?mod=logging&amp;action=login" class="xi2"><strong>登录</strong></a> 后使用快捷导航<br />没有帐号？<a href="member.php?mod=cyreg" class="xi2 xw1">注册</a>
+</div>
+</div>
+<div class="apk-download">
+<div class="apk-download-pannel">
+<img src="https://b1.qikucdn.com/dfsj_imgs/indeximg/apk_download.png?r5x" />
+<a href="http://bbs.360.cn/data/download/apk/360bbs.apk" target="_blank"></a>
+</div>
+<span class="apk-download-close">关闭</span>
+</div>
+<script>
+if(loadUserdata("apk_download_again")!=1){
+jQuery(".apk-download").show();
+}
+if(jQuery(".apk-download").length>0){
+jQuery(".apk-download-close").click(function(){
+jQuery(".apk-download").slideUp(500);
+saveUserdata("apk_download_again",1);
+});
+}
+</script>
+        <div class="xm_header_top">
+            <p class="xm_header_top_ul">
+                <span> <a href="http://www.360.com/" target="_blank">360官网</a> <span class="pipe-head">|</span> </span>
+                <span> <a href="http://mall.360.cn/?utm_source=bbs&amp;utm_medium=tuijian" target="_blank">360商城</a> <span class="pipe-head">|</span> </span>
+                <span> <a href="http://www.360shouji.com/" target="_blank">360手机官网</a> <span class="pipe-head">|</span> </span>
+<span> <a href="http://bbs.360.cn/apk/download/" target="_blank">社区客户端</a></span>
+            </p>
+        </div>
+<div id="hd" class="xm_header">
+            <div class="xm_headerInner headerInner">                <div class="cl ">
+                    <div class="logo" id="logo">
+                        <a href="http://bbs.360.cn/"> <img src="https://b1.qikucdn.com/dfsj_imgs/indeximg/qiku_community_logo.png?r5x}" alt=""></a>
+                        <!-- 签到 delete by fengyuan -->
+                    </div>
+                    <div class="athletes-refuel">
+                    	<!--<p class="refuel-number-pannel"><span class="refuel-number">0</span>&nbsp;人</p>
+                    	<p class="refuel-word">为中国奥运健儿加油！</p>
+                    	<span class="refuel-add">+1</span>-->
+                    </div>
+                    <script type="text/javascript">
+                    /*if(jQuery(".refuel-number-pannel").length>0){
+                    jQuery.ajax({
+type: "get",
+url: "http://bbs.360.cn/api/torches.php",
+data:{mod:"view"},
+success: function(res) {
+var data = JSON.parse(res);
+jQuery(".refuel-number").text(data[0].num);
+},
+error: function(err) {
+console.log(err);
+}
+});
+                    	jQuery(".athletes-refuel").bind("click",function(){
+                    		var _this=jQuery(this);
+                    		_this.stop();
+                    		_this.find(".refuel-add").stop();
+
+                    		var num=parseInt(_this.find(".refuel-number").text());
+                    		_this.css({"background-position":"0 4px"});
+                    		_this.animate({backgroundPositionY:"-26px"},1000);
+
+                    		_this.find(".refuel-add").css({"top":"15px","opacity":"1","display":"none"});
+                    		_this.find(".refuel-add").show("normal",function(){
+                    			jQuery(this).animate({"top":"-20px","opacity":"0"},1000);
+                    		});
+                    		_this.find(".refuel-number").text(num+1);
+                    		jQuery.ajax({
+type: "get",
+url: "http://bbs.360.cn/api/torches.php",
+data:{mod:"vote"},
+success: function(res) {
+
+},
+error: function(err) {
+console.log(err);
+}
+});
+                    	});
+                    }*/
+                    </script>
+                    <div id="nv">
+                        <!--<div class="xm_search">
+    <div id="scbar" class="fold">
+<form id="scbar_form" method="post" autocomplete="off" onsubmit="searchFocus($('scbar_txt'))" action="search.php?searchsubmit=yes" target="_blank">
+<input type="hidden" name="mod" id="scbar_mod" value="search" />
+<input type="hidden" name="formhash" value="4591e596" />
+<input type="hidden" name="srchtype" value="title" />
+<input type="hidden" name="srhfid" value="0" />
+<input type="hidden" name="srhlocality" value="newindex::index" />
+
+            <div class="scbar_type_outer"><a href="javascript:;" id="scbar_type" onclick="showMenu(this.id)" hidefocus="true">搜索</a></div>
+            <input type="text" name="srchtxt" id="scbar_txt" value="请输入搜索内容" autocomplete="off" x-webkit-speech speech />
+            <button type="submit" name="searchsubmit" id="scbar_btn" sc="1" class="pn pnc" value="true">搜索</button>
+        </form>
+    </div>
+</div>-->
+<ul id="scbar_type_menu" class="p_pop" style="display: none;"><li><a href="javascript:;" rel="forum" class="curtype">帖子</a></li><li><a href="javascript:;" rel="user">用户</a></li></ul>
+<script type="text/javascript">
+initSearchmenu('scbar', '');
+        if(document.getElementById("scbar")){
+            if (navigator.userAgent.indexOf('MSIE')>0) {
+                document.getElementById("scbar").attachEvent("onclick", function(e) {
+                    if (e.srcElement.className == "fold") {
+                        e.srcElement.className = "";
+                        e.srcElement.detachEvent('onclick');
+                        return false;
+                    }
+                })
+            } else {
+                document.getElementById("scbar").addEventListener("click", function(e) {
+                    if (this.className == "fold") {
+                        this.className = "";
+                        e.stopPropagation();
+                        return false
+                    }
+                })
+            }
+        }
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+
+                        <span class="xm_nav">
+                                                            <!--eval echo mn_Nedec_;--><span id="mn_Nedec" ><a href="http://bbs.360.cn/newindex.php" hidefocus="true"  >推荐</a></span>                                                            <!--eval echo mn_Nedec_;--><span id="mn_Nc122" ><a href="http://bbs.360.cn/forumall.php" hidefocus="true"  >论坛</a></span>                                                            <!--eval echo mn_Nedec_;--><span id="mn_forum" ><a href="http://bbs.360.cn/forum.php" hidefocus="true"  >版块</a></span>                                                            <!--eval echo mn_Nedec_;--><span id="mn_group" ><a href="http://bbs.360.cn/group.php" hidefocus="true"  >同城</a></span>                                                            <!--eval echo mn_Nedec_;--><span id="mn_Nd9be" ><a href="http://try.bbs.360.cn/" hidefocus="true"  >好奇者试用</a></span>                                                            <!--eval echo mn_Nedec_;--><span id="mn_Nd86a" ><a href="http://bbs.360.cn/activityset.php" hidefocus="true"  >精彩活动</a></span>                                                            <!--eval echo mn_Nedec_;--><span class="a" id="mn_Nedec_" onmouseover="showMenu({'ctrlid':this.id,'ctrlclass':'hover','duration':2})"><a href="http://bbs.360.cn/newindex.php" hidefocus="true"  >专题</a></span>                                                                                                                                                                                                                                                                                                                                                                </span>
+                                            </div>
+                    <div class="nv-searchbox">
+                        <div id="searchbar2">
+                            <form id="scbar_form" method="post" autocomplete="off" onSubmit="searchFocus($('scbar_txt2'))" action="search.php?searchsubmit=yes" target="_blank">
+                                <input name="mod" id="scbar_mod" value="search" type="hidden">
+                                <input name="formhash" value="ac476e8c" type="hidden">
+                                <input name="srchtype" value="title" type="hidden">
+                                <input name="srhfid" value="3" type="hidden">
+                                <input name="srhlocality" value="forum::forumdisplayall" type="hidden">
+                                <input name="srchtxt" id="scbar_txt2" autocomplete="off" type="text" value='帖子/用户' onFocus="if(this.value=='帖子/用户'){this.value='';this.nextSibling.style.display='none';}" onBlur="if(this.value==''){this.value='帖子/用户';this.nextSibling.style.display='block';}"><span class="search-rec" onclick="document.getElementById('scbar_txt2').value='360Q5';document.getElementById('scbar_form').submit()">360Q5</span>
+                                <input name="searchsubmit" id="scbar_submit2" value=" " type="submit" onClick="if(document.getElementById('scbar_txt2').value=='帖子/用户'){document.getElementById('scbar_txt2').value=''}">
+                            </form>
+                        </div>
+                        
+                        <div class="xm_um">
+
+    <div id="um_1" style="display:none;">
+        <div href="http://bbs.360.cn/home.php?mod=space&uid=#uid#" class="cl xm_avt">
+            <div class="z">
+            <a href="http://bbs.360.cn/home.php?mod=space&uid=#uid#" class="xm_ur">
+<img src="http://ucenter.bbs.360.cn/avatar.php?uid=#uid#&amp;size=small" />
+            </a>
+                                                    <img src="https://b1.qikucdn.com/dfsj_imgs/indeximg/arrow.png" alt="" />
+            </div>
+        </div>
+        <div class="xm_um_ex_info">
+            <ul class="base_info">
+                <li>
+                    <p class="users-name">
+                    <span class="user-name">#username#</span>
+                <a href="http://bbs.360.cn/home.php?mod=spacecp&ac=plugin&id=myvipregister:profileset" id="vip_verify" style="display:none" target="_blank">
+                    <img src="http://p0.qhmsg.com/t01519dfdd6d784ea54.png" class="vm" alt="VIP认证" title="VIP认证" />&nbsp;
+                </a>
+            	                    </p>
+                </li>
+                <li>
+                    <a href="http://bbs.360.cn/home.php?mod=spacecp&ac=credit&showcredit=1" id="extcreditmenu">积分: #credits#</a>
+                	<a href="http://bbs.360.cn/home.php?mod=spacecp&ac=usergroup" id="g_upmine">用户组: #grouptitle#</a>
+                </li>
+            </ul>
+            <div class="action">
+                <ul>
+                	<li>
+                    <span class="greypoint"></span>
+                    <a id="message_notice" href="http://bbs.360.cn/home.php?mod=space&do=pm">消息</a>
+                    </li>
+                    <li>
+                    	<span class="greypoint"></span>
+                        <a id="at_notice" href="http://bbs.360.cn/home.php?mod=space&do=notice&type=at">@我的</a>
+                        <span id="myprompt_check"></span>
+                    </li>
+                    <li>
+                    	<span class="greypoint"></span>
+                        <a id="warning_notice" href="http://bbs.360.cn/home.php?mod=space&do=notice" id="myprompt">提醒</a>
+                        <span id="myprompt_check"></span>
+                    </li>
+                    <li>
+                        <span class="greypoint"></span><a href="http://bbs.360.cn/home.php?mod=spacecp">个人资料</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="quickbtns">
+                <a class="logoutbtn" href="https://passport.qiku.com/sso/logout?appid=1010000675&callback=http%3a%2f%2fbbs.360.cn%2fmember.php%3fmod%3dlogging%26action%3dlogout%26formhash%3d4591e596">退出</a>					
+            	<a href="http://bbs.360.cn/home.php?mod=spacecp" class="setupbtn">设置</a>
+            </div>
+        </div>
+    </div>
+
+
+<div id="um_0" style="display:none;">
+<p class="login">
+                <a href="http://bbs.360.cn/member.php?mod=logging&amp;action=login">登录</a>
+<a href="https://passport.qiku.com/register?appid=1010000675&callback=http%3a%2f%2fbbs.360.cn%2flogin_sso_web.php" class="xi2 xw1" style="color: #2ec7bb;font-weight:400;">注册</a>
+</p>
+    </div>
+</div>
+                        <div class="div-qmenu" id="div-qmenu" style="display:none;"><a href="javascript:;" id="qmenu" class="qmenu_coolpad" onMouseOver="delayShow(this, function () {showMenu({'ctrlid':'qmenu','pos':'34!','ctrlclass':'a','duration':2});})">快捷导航</a></div>
+                    	<script src="https://b1.qikucdn.com/static/js/jquery/external/jquery.cookie.js?r5x" type="text/javascript"></script>
+<script>
+var str_userinfo = jq.cookie(cookiepre + 'userinfo');
+if (str_userinfo)
+{
+var login_userinfo = (jq.parseJSON(str_userinfo));
+if (login_userinfo && typeof(login_userinfo) == 'object' 
+&& login_userinfo['uid'] && login_userinfo['username'] 
+&& login_userinfo['grouptitle'] && login_userinfo['credits'])
+{
+discuz_uid = login_userinfo['uid'];
+var header_user_html = jq("#um_1").html();
+for (var p in login_userinfo)
+{
+var reg = new RegExp('#' + p + '#', 'g');
+header_user_html = header_user_html.replace(reg, login_userinfo[p]);
+}
+jq('#um_1').html(header_user_html);
+jq("#um_1").css('display', 'block');
+jq("#div-qmenu").css('display', 'block');
+if (login_userinfo['verify1'] == 1)
+{
+jq('#vip_verify').css('display', '');
+}
+} else {
+jq("#um_0").css('display', 'block');
+}
+} else {
+jq("#um_0").css('display', 'block');
+}
+</script>
+                    </div>
+
+                </div>
+
+<ul class="p_pop h_pop" id="plugin_menu" style="display: none">  <li><a href="dsu_paulsign-sign.html" id="mn_plink_sign">每日签到</a></li>
+ </ul>
+<ul class="p_pop h_pop" id="mn_Nedec__menu" style="display: none"><li><a href="http://live.bbs.360.cn/170222/" hidefocus="true" >360手机N5发布会</a></li><li><a href="http://bbs.360.cn/zt/party/" hidefocus="true" >单身狗的party</a></li><li><a href="http://live.bbs.360.cn/1026/" hidefocus="true" >360N4S骁龙版发布会</a></li><li><a href="http://bbs.360.cn/zt/360phonecyj/index.php " hidefocus="true" >360N4A毛求畅快之旅</a></li><li><a href="http://live.bbs.360.cn/1013/" hidefocus="true" target="_blank" >360N4A发布会</a></li><li><a href="http://live.bbs.360.cn/0823/" hidefocus="true" target="_blank" >360Q5 Q5Plus发布会</a></li><li><a href="http://live.bbs.360.cn/0715/" hidefocus="true" target="_blank" >360N4S暨360OS2.0发布会</a></li><li><a href="http://live.bbs.360.cn/0613/" hidefocus="true" target="_blank" >360手机首届粉丝节</a></li><li><a href="http://live.bbs.360.cn/0509/" hidefocus="true" target="_blank" >360N4新品发布会</a></li><li><a href="http://live.bbs.360.cn/0321/" hidefocus="true" target="_blank" >360F4新品发布会</a></li></ul><div class="p_pop h_pop" id="mn_userapp_menu" style="display: none"></div><div id="mu" class="cl">
+</div><!--"{"subtemplate common/pubsearchform"}"-->
+</div>
+</div>
+
+
+<div id="wp" class="wp">
+
+</div> 
+<script>
+    try {
+        var urlhash = window.location.hash;
+        if (!urlhash.match("fromapp")) {
+            if ((navigator.userAgent.match(/(iPhone|iPod|Android|ios|iPad)/i))) {
+                window.location.href = 'http://bbs.360.cn/forum.php?forumlist=1&mobile=2';
+            }
+        }
+    } catch (err) {}
+</script>
+<style id="diy_style" type="text/css"></style>
+<link href="https://b1.qikucdn.com/dfsj_imgs/index/newindexstyle2.css?r5x" rel="stylesheet" type="text/css" />
+<script src="https://b1.qikucdn.com/dfsj_imgs/index/jquery.min.js?r5x" type="text/javascript"></script>
+<script>var dfsj_jq = jQuery.noConflict();</script>
+<script src="https://b1.qikucdn.com/dfsj_imgs/index/jquery.sgallery.js?r5x" type="text/javascript"></script>
+<script src="https://b1.qikucdn.com/dfsj_imgs/index/comm.js?r5x" type="text/javascript"></script>
+
+<!--[if lt IE 9]>
+<style type="text/css">
+.canvas-default{
+display:block;
+}
+#canvas {
+display:none;
+}
+</style>
+<!--[else]>
+<style type="text/css">
+.canvas-default{
+display:none;
+}
+#canvas {
+display:block;
+}
+</style>
+<![endif]-->
+<!-- main start -->
+
+<div  id="wp" class="wp">
+    <div class="main">
+        <div class="banner box"></div>
+        <!--幻灯片-->
+        <div id="dfsj_index1" class="area"><div id="portal_block_230" class="block move-span"><div id="portal_block_230_content" class="dxb_bc"><div class="dfsj_focus">
+		<div class="col topCol"><a href="http://bbs.360.cn/thread-14846509-1-1.html" target="_blank" title="【喜迎新学期】学霸大赛第三期，抢答赢奖！"><img src="http://p0.qhmsg.com/t01e87c8016635e0d3e.png" width="1240" height="400" alt="【喜迎新学期】学霸大赛第三期，抢答赢奖！" /></a><a href="http://mall.360.cn/ac/N5?utm_source=shequ-jiaodiantu&utm_medium=360shouji&utm_campaign=&utm_term=&utm_content= " target="_blank" title="N5预约"><img src="http://p0.qhmsg.com/t011e7573699edc315b.jpg" width="1240" height="400" alt="N5预约" /></a><a href="http://bbs.360.cn/thread-14829133-1-1.html" target="_blank" title="【有奖征集】脑洞大开，四格创意漫画搞起！"><img src="http://p0.qhmsg.com/t015c91cb70b62c268e.png" width="1240" height="400" alt="【有奖征集】脑洞大开，四格创意漫画搞起！" /></a><ul style="display: block">
+<li class="now"> </li>
+</ul>
+		</div>
+<img src="https://b1.qikucdn.com/dfsj_imgs/indeximg/index_pre.png" alt="上一页" class="index-control" id="index-pre" />
+<img src="https://b1.qikucdn.com/dfsj_imgs/indeximg/index_next.png" alt="上一页" class="index-control" id="index-next" />
+	</div>
+</div></div></div>
+        <div class="dfsj_content cl">
+            <!--左侧新闻-->
+            <div class="left box">
+            <div id="dfsj_index2" class="area"><div id="portal_block_231" class="block move-span"><div id="portal_block_231_content" class="dxb_bc"><ul class="news" id="news"><li>
+            <div class="news-pic">
+                <a href="http://bbs.360.cn/thread-14850153-1-1.html"  target="_blank"><img src="http://p0.qhmsg.com/t01bcef78b426de8f22.png" width="auto" height="auto" alt="周鸿祎：网络安全需要有灵感、有天赋的奇才、怪才" /></a>
+            </div>
+            <div class="news-detail">
+                <h2 class="new-title"><a href="http://bbs.360.cn/thread-14850153-1-1.html"  target="_blank">周鸿祎：网络安全需要有灵感、有天赋的奇才、怪才</a></h2>
+                <p class="news-content">在昨天的360SRC（360安全应急响应中心）三周年庆典上，公司来了很多安全圈里的白帽子大神，有的甚至还是大学生。
+
+面对这些年轻的白帽子，老周和360SRC一起发布了“IOT守护计划”，邀请白帽子参与到360智能硬件产品的漏洞挖掘工作中来。 <a href="http://bbs.360.cn/thread-14850153-1-1.html"   target="_blank"  class="more">全文》</a></p>
+                <div class="news-extradetail">
+                    <span class="news-cols1"><a href="http://bbs.360.cn/forum-5168-1.html" target="_blank"">粉丝杂谈</a> </span>
+                    <span class="news-cols2"><span>2017-02-24 </span><span>|</span><span> 鴻鴈 </span></span>
+                    <p class="news-cols3">
+                        <a class="news-share"> </a>
+                    </p>
+
+            <div class="share-index">
+                <div class="bdsharebuttonbox">
+                    <a href="javascript:void(0);" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a>
+                    <a  href="http://v.t.sina.com.cn/share/share.php?url=http://bbs.360.cn/forum.php?mod=viewthread&tid=14850153&appkey=1874498659&title=周鸿祎：网络安全需要有灵感、有天赋的奇才、怪才——来自@奇酷社区" class="share_xinlang" title="分享到新浪微博
+
+" target="_blank"></a>
+                    <a href="javascript:void(0);" class="share_qq" title="分享到qq好友" target="_blank"></a>
+                    <a href="javascript:void(0);" class="share_qqone" title="分享到QQ空间" target="_blank"></a>
+                    <a href="javascript:void(0);" class="bds_tieba" data-cmd="tieba" title="分享到百度贴吧"></a>
+                </div>
+            </div>
+
+                </div>
+            </div>
+        </li><li>
+            <div class="news-pic">
+                <a href="http://bbs.360.cn/thread-14849566-1-1.html"  target="_blank"><img src="http://p0.qhmsg.com/t01a900c20b39830c58.png" width="auto" height="auto" alt="一个96年的孩子，凭什么获得360公司20万奖金？" /></a>
+            </div>
+            <div class="news-detail">
+                <h2 class="new-title"><a href="http://bbs.360.cn/thread-14849566-1-1.html"  target="_blank">一个96年的孩子，凭什么获得360公司20万奖金？</a></h2>
+                <p class="news-content">自古英雄出少年。在黑客圈子，95后的小年轻们已悄然成为最活跃和高产的一个群体。
+
+在黑客的世界里，从来就没有所谓“年纪轻轻、资历尚浅”的偏见，“Talk is cheap，show me the code”才是这个圈子的天条。 <a href="http://bbs.360.cn/thread-14849566-1-1.html"   target="_blank"  class="more">全文》</a></p>
+                <div class="news-extradetail">
+                    <span class="news-cols1"><a href="http://bbs.360.cn/forum-2540-1.html" target="_blank"">360动态</a> </span>
+                    <span class="news-cols2"><span>2017-02-24 </span><span>|</span><span> 王光明 </span></span>
+                    <p class="news-cols3">
+                        <a class="news-share"> </a>
+                    </p>
+
+            <div class="share-index">
+                <div class="bdsharebuttonbox">
+                    <a href="javascript:void(0);" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a>
+                    <a  href="http://v.t.sina.com.cn/share/share.php?url=http://bbs.360.cn/forum.php?mod=viewthread&tid=14849566&appkey=1874498659&title=一个96年的孩子，凭什么获得360公司20万奖金？——来自@奇酷社区" class="share_xinlang" title="分享到新浪微博
+
+" target="_blank"></a>
+                    <a href="javascript:void(0);" class="share_qq" title="分享到qq好友" target="_blank"></a>
+                    <a href="javascript:void(0);" class="share_qqone" title="分享到QQ空间" target="_blank"></a>
+                    <a href="javascript:void(0);" class="bds_tieba" data-cmd="tieba" title="分享到百度贴吧"></a>
+                </div>
+            </div>
+
+                </div>
+            </div>
+        </li><li>
+            <div class="news-pic">
+                <a href="http://bbs.360.cn/thread-14848302-1-1.html"  target="_blank"><img src="http://p0.qhmsg.com/t012a2cab34a32df6ae.png" width="auto" height="auto" alt="【视频】交互逻辑的变革--360N5首发宣传片" /></a>
+            </div>
+            <div class="news-detail">
+                <h2 class="new-title"><a href="http://bbs.360.cn/thread-14848302-1-1.html"  target="_blank">【视频】交互逻辑的变革--360N5首发宣传片</a></h2>
+                <p class="news-content">360手机N5新品发布会昨日结束，机友们心仪已久的360N5重磅推出，360N5拥有骁龙653处理器+6GB超大运行内存+64GB/32GB存储+4000mAh大电池+涡轮闪充，还有好玩好用的Transform、FastZone、Infinity等功能，期待机友们去探索，接下来一起回顾发布会上的360N5宣传 <a href="http://bbs.360.cn/thread-14848302-1-1.html"   target="_blank"  class="more">全文》</a></p>
+                <div class="news-extradetail">
+                    <span class="news-cols1"><a href="http://bbs.360.cn/forum-7144-1.html" target="_blank"">360手机N5</a> </span>
+                    <span class="news-cols2"><span>2017-02-23 </span><span>|</span><span> 明道 </span></span>
+                    <p class="news-cols3">
+                        <a class="news-share"> </a>
+                    </p>
+
+            <div class="share-index">
+                <div class="bdsharebuttonbox">
+                    <a href="javascript:void(0);" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a>
+                    <a  href="http://v.t.sina.com.cn/share/share.php?url=http://bbs.360.cn/forum.php?mod=viewthread&tid=14848302&appkey=1874498659&title=【视频】交互逻辑的变革--360N5首发宣传片——来自@奇酷社区" class="share_xinlang" title="分享到新浪微博
+
+" target="_blank"></a>
+                    <a href="javascript:void(0);" class="share_qq" title="分享到qq好友" target="_blank"></a>
+                    <a href="javascript:void(0);" class="share_qqone" title="分享到QQ空间" target="_blank"></a>
+                    <a href="javascript:void(0);" class="bds_tieba" data-cmd="tieba" title="分享到百度贴吧"></a>
+                </div>
+            </div>
+
+                </div>
+            </div>
+        </li><li>
+            <div class="news-pic">
+                <a href="http://bbs.360.cn/thread-14848257-1-1.html"  target="_blank"><img src="http://p0.qhmsg.com/t01ed2de3e74bbab477.png" width="auto" height="auto" alt="【视频】失传已久无影拳重现！真的隔空哦！" /></a>
+            </div>
+            <div class="news-detail">
+                <h2 class="new-title"><a href="http://bbs.360.cn/thread-14848257-1-1.html"  target="_blank">【视频】失传已久无影拳重现！真的隔空哦！</a></h2>
+                <p class="news-content">话说，江湖有一种隔空神功--无影拳，但是已经失传很多年！
+如今，竟然重现江湖！
+真的隔空哦！
+不信？
+来看！
+ <a href="http://bbs.360.cn/thread-14848257-1-1.html"   target="_blank"  class="more">全文》</a></p>
+                <div class="news-extradetail">
+                    <span class="news-cols1"><a href="http://bbs.360.cn/forum-7144-1.html" target="_blank"">360手机N5</a> </span>
+                    <span class="news-cols2"><span>2017-02-23 </span><span>|</span><span> 360手机 </span></span>
+                    <p class="news-cols3">
+                        <a class="news-share"> </a>
+                    </p>
+
+            <div class="share-index">
+                <div class="bdsharebuttonbox">
+                    <a href="javascript:void(0);" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a>
+                    <a  href="http://v.t.sina.com.cn/share/share.php?url=http://bbs.360.cn/forum.php?mod=viewthread&tid=14848257&appkey=1874498659&title=【视频】失传已久无影拳重现！真的隔空哦！——来自@奇酷社区" class="share_xinlang" title="分享到新浪微博
+
+" target="_blank"></a>
+                    <a href="javascript:void(0);" class="share_qq" title="分享到qq好友" target="_blank"></a>
+                    <a href="javascript:void(0);" class="share_qqone" title="分享到QQ空间" target="_blank"></a>
+                    <a href="javascript:void(0);" class="bds_tieba" data-cmd="tieba" title="分享到百度贴吧"></a>
+                </div>
+            </div>
+
+                </div>
+            </div>
+        </li><li>
+            <div class="news-pic">
+                <a href="http://bbs.360.cn/thread-14848429-1-1.html"  target="_blank"><img src="http://p0.qhmsg.com/t01538cc0ec08526a7b.jpg" width="auto" height="auto" alt="【视频】360手机N5新品发布会88秒快闪版，千万别眨眼" /></a>
+            </div>
+            <div class="news-detail">
+                <h2 class="new-title"><a href="http://bbs.360.cn/thread-14848429-1-1.html"  target="_blank">【视频】360手机N5新品发布会88秒快闪版，千万别眨眼</a></h2>
+                <p class="news-content">大家是不是对昨天的360手机N5发布会意犹未尽？没看爽？现在给你们一个88秒快闪版，千万别眨眼，因为你会错过。。。 <a href="http://bbs.360.cn/thread-14848429-1-1.html"   target="_blank"  class="more">全文》</a></p>
+                <div class="news-extradetail">
+                    <span class="news-cols1"><a href="http://bbs.360.cn/forum-7144-1.html" target="_blank"">360手机N5</a> </span>
+                    <span class="news-cols2"><span>2017-02-23 </span><span>|</span><span> 360手机 </span></span>
+                    <p class="news-cols3">
+                        <a class="news-share"> </a>
+                    </p>
+
+            <div class="share-index">
+                <div class="bdsharebuttonbox">
+                    <a href="javascript:void(0);" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a>
+                    <a  href="http://v.t.sina.com.cn/share/share.php?url=http://bbs.360.cn/forum.php?mod=viewthread&tid=14848429&appkey=1874498659&title=【视频】360手机N5新品发布会88秒快闪版，千万别眨眼——来自@奇酷社区" class="share_xinlang" title="分享到新浪微博
+
+" target="_blank"></a>
+                    <a href="javascript:void(0);" class="share_qq" title="分享到qq好友" target="_blank"></a>
+                    <a href="javascript:void(0);" class="share_qqone" title="分享到QQ空间" target="_blank"></a>
+                    <a href="javascript:void(0);" class="bds_tieba" data-cmd="tieba" title="分享到百度贴吧"></a>
+                </div>
+            </div>
+
+                </div>
+            </div>
+        </li><li>
+            <div class="news-pic">
+                <a href="http://bbs.360.cn/thread-14843829-1-1.html"  target="_blank"><img src="http://p0.qhmsg.com/t0161cd2827f2717fec.png" width="auto" height="auto" alt="【四格漫画】唐僧被抓记（二）之师傅取经" /></a>
+            </div>
+            <div class="news-detail">
+                <h2 class="new-title"><a href="http://bbs.360.cn/thread-14843829-1-1.html"  target="_blank">【四格漫画】唐僧被抓记（二）之师傅取经</a></h2>
+                <p class="news-content">唐僧被抓记系列漫画第二期新鲜出炉！#唐僧被抓记#是360社区出品的系列四格漫画作品，希望广大用户一起参与到作品的创作中，可以赢取丰厚礼品哦，详见文末。 <a href="http://bbs.360.cn/thread-14843829-1-1.html"   target="_blank"  class="more">全文》</a></p>
+                <div class="news-extradetail">
+                    <span class="news-cols1"><a href="http://bbs.360.cn/forum-5168-1.html" target="_blank"">粉丝杂谈</a> </span>
+                    <span class="news-cols2"><span>2017-02-20 </span><span>|</span><span> 王光明 </span></span>
+                    <p class="news-cols3">
+                        <a class="news-share"> </a>
+                    </p>
+
+            <div class="share-index">
+                <div class="bdsharebuttonbox">
+                    <a href="javascript:void(0);" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a>
+                    <a  href="http://v.t.sina.com.cn/share/share.php?url=http://bbs.360.cn/forum.php?mod=viewthread&tid=14843829&appkey=1874498659&title=【四格漫画】唐僧被抓记（二）之师傅取经——来自@奇酷社区" class="share_xinlang" title="分享到新浪微博
+
+" target="_blank"></a>
+                    <a href="javascript:void(0);" class="share_qq" title="分享到qq好友" target="_blank"></a>
+                    <a href="javascript:void(0);" class="share_qqone" title="分享到QQ空间" target="_blank"></a>
+                    <a href="javascript:void(0);" class="bds_tieba" data-cmd="tieba" title="分享到百度贴吧"></a>
+                </div>
+            </div>
+
+                </div>
+            </div>
+        </li><li>
+            <div class="news-pic">
+                <a href="http://bbs.360.cn/thread-14847207-1-1.html"  target="_blank"><img src="http://p0.qhmsg.com/t01a37e496d8e46cb83.png" width="auto" height="auto" alt="一张图看懂360手机N5，青年新旗舰" /></a>
+            </div>
+            <div class="news-detail">
+                <h2 class="new-title"><a href="http://bbs.360.cn/thread-14847207-1-1.html"  target="_blank">一张图看懂360手机N5，青年新旗舰</a></h2>
+                <p class="news-content">360手机N5拥有骁龙653处理器，性能强劲；6GB超大内存，应用随意开；4000mAh大电池+涡轮闪充，使用一天半绰绰有余；360OS2.0安全升级更放心……更多惊喜等你发现！发布会看完了，多多了解一下吧。 <a href="http://bbs.360.cn/thread-14847207-1-1.html"   target="_blank"  class="more">全文》</a></p>
+                <div class="news-extradetail">
+                    <span class="news-cols1"><a href="http://bbs.360.cn/forum-7144-1.html" target="_blank"">360手机N5</a> </span>
+                    <span class="news-cols2"><span>2017-02-22 </span><span>|</span><span> 360手机 </span></span>
+                    <p class="news-cols3">
+                        <a class="news-share"> </a>
+                    </p>
+
+            <div class="share-index">
+                <div class="bdsharebuttonbox">
+                    <a href="javascript:void(0);" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a>
+                    <a  href="http://v.t.sina.com.cn/share/share.php?url=http://bbs.360.cn/forum.php?mod=viewthread&tid=14847207&appkey=1874498659&title=一张图看懂360手机N5，青年新旗舰——来自@奇酷社区" class="share_xinlang" title="分享到新浪微博
+
+" target="_blank"></a>
+                    <a href="javascript:void(0);" class="share_qq" title="分享到qq好友" target="_blank"></a>
+                    <a href="javascript:void(0);" class="share_qqone" title="分享到QQ空间" target="_blank"></a>
+                    <a href="javascript:void(0);" class="bds_tieba" data-cmd="tieba" title="分享到百度贴吧"></a>
+                </div>
+            </div>
+
+                </div>
+            </div>
+        </li><li>
+            <div class="news-pic">
+                <a href="http://bbs.360.cn/thread-14847458-1-1.html"  target="_blank"><img src="http://p0.qhmsg.com/t016081254ebafbf085.png" width="auto" height="auto" alt="相逢未必偶然，360 N5 发布会回顾帖" /></a>
+            </div>
+            <div class="news-detail">
+                <h2 class="new-title"><a href="http://bbs.360.cn/thread-14847458-1-1.html"  target="_blank">相逢未必偶然，360 N5 发布会回顾帖</a></h2>
+                <p class="news-content">作为一个老周的死忠粉，或许可以这么自我称谓，毕竟老周的《我的互联网方法论》当时京东众筹的时候，我是满血期待！
+如见也一定程度上影响了我的学习和工作，作为国内很腻害的产品经理，我还是很仰慕老周！ <a href="http://bbs.360.cn/thread-14847458-1-1.html"   target="_blank"  class="more">全文》</a></p>
+                <div class="news-extradetail">
+                    <span class="news-cols1"><a href="http://bbs.360.cn/forum-7144-1.html" target="_blank"">360手机N5</a> </span>
+                    <span class="news-cols2"><span>2017-02-22 </span><span>|</span><span> 槑槑槑 </span></span>
+                    <p class="news-cols3">
+                        <a class="news-share"> </a>
+                    </p>
+
+            <div class="share-index">
+                <div class="bdsharebuttonbox">
+                    <a href="javascript:void(0);" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a>
+                    <a  href="http://v.t.sina.com.cn/share/share.php?url=http://bbs.360.cn/forum.php?mod=viewthread&tid=14847458&appkey=1874498659&title=相逢未必偶然，360 N5 发布会回顾帖——来自@奇酷社区" class="share_xinlang" title="分享到新浪微博
+
+" target="_blank"></a>
+                    <a href="javascript:void(0);" class="share_qq" title="分享到qq好友" target="_blank"></a>
+                    <a href="javascript:void(0);" class="share_qqone" title="分享到QQ空间" target="_blank"></a>
+                    <a href="javascript:void(0);" class="bds_tieba" data-cmd="tieba" title="分享到百度贴吧"></a>
+                </div>
+            </div>
+
+                </div>
+            </div>
+        </li><li>
+            <div class="news-pic">
+                <a href="http://bbs.360.cn/thread-14846559-1-1.html"  target="_blank"><img src="http://p0.qhmsg.com/t01e8d5bc648186b9d2.png" width="auto" height="auto" alt="【主播专访】周周小小，这个主播是草莓味儿的！" /></a>
+            </div>
+            <div class="news-detail">
+                <h2 class="new-title"><a href="http://bbs.360.cn/thread-14846559-1-1.html"  target="_blank">【主播专访】周周小小，这个主播是草莓味儿的！</a></h2>
+                <p class="news-content">周周小小的形容词有很多，真诚、认真、努力、勤奋、刻苦... ...在柔弱的外表下也有着倔强的一面，要把一切都努力做到最好是她对自己的承诺。周周小小就像是一道草莓味儿的甜品，这种味道可以让你幸福无比，平凡却更特别的她可以甜到你心头。 <a href="http://bbs.360.cn/thread-14846559-1-1.html"   target="_blank"  class="more">全文》</a></p>
+                <div class="news-extradetail">
+                    <span class="news-cols1"><a href="http://bbs.360.cn/forum-3050-1.html" target="_blank"">花椒直播</a> </span>
+                    <span class="news-cols2"><span>2017-02-22 </span><span>|</span><span> 王光明 </span></span>
+                    <p class="news-cols3">
+                        <a class="news-share"> </a>
+                    </p>
+
+            <div class="share-index">
+                <div class="bdsharebuttonbox">
+                    <a href="javascript:void(0);" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a>
+                    <a  href="http://v.t.sina.com.cn/share/share.php?url=http://bbs.360.cn/forum.php?mod=viewthread&tid=14846559&appkey=1874498659&title=【主播专访】周周小小，这个主播是草莓味儿的！——来自@奇酷社区" class="share_xinlang" title="分享到新浪微博
+
+" target="_blank"></a>
+                    <a href="javascript:void(0);" class="share_qq" title="分享到qq好友" target="_blank"></a>
+                    <a href="javascript:void(0);" class="share_qqone" title="分享到QQ空间" target="_blank"></a>
+                    <a href="javascript:void(0);" class="bds_tieba" data-cmd="tieba" title="分享到百度贴吧"></a>
+                </div>
+            </div>
+
+                </div>
+            </div>
+        </li><li>
+            <div class="news-pic">
+                <a href="http://bbs.360.cn/thread-14848486-1-1.html"  target="_blank"><img src="http://p0.qhmsg.com/t0140cc035fa42aa74d.png" width="auto" height="auto" alt="【视频】360手机N5新品发布会开场视频" /></a>
+            </div>
+            <div class="news-detail">
+                <h2 class="new-title"><a href="http://bbs.360.cn/thread-14848486-1-1.html"  target="_blank">【视频】360手机N5新品发布会开场视频</a></h2>
+                <p class="news-content">360手机N5新品发布会，你可能没看够？开场视频你可以一直在期待？来啦，360手机N5新品发布会开场视频完整版等你观影。大圣归来团队巨献！ <a href="http://bbs.360.cn/thread-14848486-1-1.html"   target="_blank"  class="more">全文》</a></p>
+                <div class="news-extradetail">
+                    <span class="news-cols1"><a href="http://bbs.360.cn/forum-7144-1.html" target="_blank"">360手机N5</a> </span>
+                    <span class="news-cols2"><span>2017-02-23 </span><span>|</span><span> 360手机 </span></span>
+                    <p class="news-cols3">
+                        <a class="news-share"> </a>
+                    </p>
+
+            <div class="share-index">
+                <div class="bdsharebuttonbox">
+                    <a href="javascript:void(0);" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a>
+                    <a  href="http://v.t.sina.com.cn/share/share.php?url=http://bbs.360.cn/forum.php?mod=viewthread&tid=14848486&appkey=1874498659&title=【视频】360手机N5新品发布会开场视频——来自@奇酷社区" class="share_xinlang" title="分享到新浪微博
+
+" target="_blank"></a>
+                    <a href="javascript:void(0);" class="share_qq" title="分享到qq好友" target="_blank"></a>
+                    <a href="javascript:void(0);" class="share_qqone" title="分享到QQ空间" target="_blank"></a>
+                    <a href="javascript:void(0);" class="bds_tieba" data-cmd="tieba" title="分享到百度贴吧"></a>
+                </div>
+            </div>
+
+                </div>
+            </div>
+        </li></ul>
+</div></div></div>
+                <div class="index-pages"></div>
+            </div>
+            <div class="right"> 
+                <div id="dfsj_index3" class="area">
+                    <div id="portal_block_232" class="block move-span"><div id="portal_block_232_content" class="dxb_bc"><div class="portal_block_summary"><div class="posting">
+<a href="http://bbs.360.cn/forum.php?mod=post&action=newthread">
+发帖
+  
+</a>
+</div></div></div></div>                    <div id="portal_block_234" class="block move-span"><div id="portal_block_234_content" class="dxb_bc"><div class="portal_block_summary"><div class="time-signups">
+<div class="right-time">
+<p class="right-week">星期四</p>
+<p class="right-day">3.31</p>
+<p class="right-signnum">已签到<span class="right-signnums">1000</span>人</p>
+</div>
+<div class="right-signups lucky-link">
+<a class="sign-link lucky-links" href="dsu_paulsign-sign.html"  style="margin-bottom: 6px;">
+签到
+</a>
+<a href="./lucky.php" class="lucky-links" target="_blank">
+抽奖
+</a>
+
+</div>
+</div></div></div></div>                    <div id="portal_block_235" class="block move-span"><div id="portal_block_235_content" class="dxb_bc"><div class="plays box">
+				<h4><strong>版块推荐</strong></h4>
+				<ul><li class="playlist"><a href="forum-7144-1.html" target="_blank" title="360手机N5"><img src="" width="24" height="24" alt="360手机N5" />360手机N5</a></li><li class="playlist"><a href="forum-5146-1.html" target="_blank" title="手机摄影"><img src="http://p0.qhmsg.com/t01e9739182cfdbb42b.png" width="24" height="24" alt="手机摄影" />手机摄影</a></li><li class="playlist"><a href="forum-7088-1.html" target="_blank" title="360手机Q5"><img src="http://p0.qhmsg.com/t0175b5d9c7d8bfd7aa.png" width="24" height="24" alt="360手机Q5" />360手机Q5</a></li><li class="playlist"><a href="forum-3050-1.html" target="_blank" title="花椒直播"><img src="http://p0.qhmsg.com/t01fb9c68e7e34fe862.png" width="24" height="24" alt="花椒直播" />花椒直播</a></li><li class="playlist"><a href="forum-7076-1.html" target="_blank" title="360手机N4S"><img src="http://p0.qhmsg.com/t01b3ea84a97551c661.png" width="24" height="24" alt="360手机N4S" />360手机N4S</a></li><li class="playlist"><a href="forum-7005-1.html" target="_blank" title="360儿童卫士"><img src="http://p0.qhmsg.com/t011cfce70442278c24.png" width="24" height="24" alt="360儿童卫士" />360儿童卫士</a></li></ul>
+			</div></div></div>                    <div id="portal_block_236" class="block move-span"><div class="blocktitle title"><span class="titletext" style="float:;margin-left:px;font-size:;color: !important;">360手机Q5/Q5Plus发布会视频回顾</span></div><div id="portal_block_236_content" class="dxb_bc"><div class="portal_block_summary"><span id="flv_dj1"></span><script type="text/javascript" reload="1">$('flv_dj1').innerHTML=(mobileplayer() ? "<iframe height='200' width='280' src='http://player.youku.com/embed/XMTY5NzgzMzM0OA==.html' frameborder=0 allowfullscreen></iframe>" : AC_FL_RunContent('width', '280', 'height', '200', 'allowNetworking', 'internal', 'allowScriptAccess', 'never', 'src', 'http://player.youku.com/player.php/sid/XMTY5NzgzMzM0OA==.html/v.swf', 'quality', 'high', 'bgcolor', '#ffffff', 'wmode', 'transparent', 'allowfullscreen', 'true'));</script></div></div></div>                    <div id="portal_block_237" class="block move-span"><div id="portal_block_237_content" class="dxb_bc"><div class="module cl ml newestact"><h4 class="newestact-title">最新活动</h4>
+
+
+<div class="newestact_focus">
+		<div class="col topCol" style="width: 270px"><a href="http://bbs.360.cn/thread-14846509-1-1.html" target="_blank" title="【喜迎新学期】学霸大赛第三期，抢答赢奖！"><img src="http://p0.qhmsg.com/t01ddabb573d0d7be6c.png" width="270" height="152" alt="【喜迎新学期】学霸大赛第三期，抢答赢奖！" /></a><ul style="display: block">
+<li class="now"> </li>
+</ul>
+		</div>
+	</div>
+
+</div></div></div>                    <div id="portal_block_283" class="block move-span"><div id="portal_block_283_content" class="dxb_bc"><div class="editorChoice box hot-posts-pannel">
+        <h4>
+			<strong>热门推荐</strong>  <!--<span class="hot-posts posts-selected">热门推荐</span><span class="new-posts">最新主帖</span>-->     
+		</h4>
+        <ul><li><a href="http://bbs.360.cn/thread-14846970-1-1.html"  target="_blank" title="360手机N5到底有多好用？全面评测走起">360手机N5到底有多好用？全面评测走起</a></li><li><a href="http://bbs.360.cn/thread-14843829-1-1.html"  target="_blank" title="【四格漫画】唐僧被抓记（二）之师傅取经">【四格漫画】唐僧被抓记（二）之师傅取经</a></li><li><a href="http://bbs.360.cn/thread-14847458-1-1.html"  target="_blank" title="相逢未必偶然，360 N5 发布会回顾帖">相逢未必偶然，360 N5 发布会回顾帖</a></li><li><a href="http://bbs.360.cn/thread-14847207-1-1.html"  target="_blank" title="一张图看懂360手机N5，青年新旗舰">一张图看懂360手机N5，青年新旗舰</a></li><li><a href="http://bbs.360.cn/thread-14846559-1-1.html"  target="_blank" title="【主播专访】周周小小，这个主播是草莓味儿">【主播专访】周周小小，这个主播是草莓味儿</a></li><li><a href="http://bbs.360.cn/thread-14839815-1-1.html"  target="_blank" title="四分屏全景监控 360看店宝开箱图赏">四分屏全景监控 360看店宝开箱图赏</a></li><li><a href="http://bbs.360.cn/thread-14837793-1-1.html"  target="_blank" title="360儿童手表5s功能评测 360巴迪龙儿童手表5">360儿童手表5s功能评测 360巴迪龙儿童手表5</a></li><li><a href="http://bbs.360.cn/thread-14839220-1-1.html"  target="_blank" title="【视频】360N5一台手机同时开启100个微信抢">【视频】360N5一台手机同时开启100个微信抢</a></li></ul>
+</div>
+</div></div><div id="portal_block_282" class="block move-span"><div id="portal_block_282_content" class="dxb_bc"><div class="editorChoice box new-posts-pannel">
+        <h4>
+			<strong>内容推荐</strong>  <span class="hot-posts">热门推荐</span><span class="new-posts">最新主帖</span>     
+		</h4>
+        <ul></ul>
+</div>
+</div></div>                    <div id="portal_block_239" class="block move-span"><div id="portal_block_239_content" class="dxb_bc"><div class="portal_block_summary"><div class="update360">
+        <div class="update box">
+            <h4>360 OS版本 <span class="stable-box">稳定版</span><span class="test-box">公测版
+
+</span></h4>
+        </div>
+        <div class="update-stable">
+            <div class="stable-detail">
+                <p class="update-row1">360手机N4S V91版</p>
+                <p class="update-row2">更新时间：2016年12月12日</p>
+                <p class="update-row3">更新推荐：对齐唤醒功能，解决微信延迟，相机启动速度优化，
+相机专业模式拍照优化</p>
+            </div>
+            <div class="stable-btns">
+                <a href="http://bbs.360.cn/thread-14735444-1-1.html" target="_blank">下载ROM</a>
+                <a href="http://bbs.360.cn/thread-14330213-1-1.html" style="background-color: 
+
+#c9c9c9;margin-left: 20px;" target="_blank">刷机教程</a>
+            </div>
+        </div>
+        <div class="update-test" style="display:none;">
+            <div class="test-detail">
+                <p class="update-row1">旗舰版V2.0.17</p>
+                <p class="update-row2">更新时间：2016年11月30日</p>
+                <p class="update-row3">更新推荐：长时间QQ语音，下拉托盘偶发卡顿，锁屏和安全密码设置界面的
+
+自动锁定功能</p>
+            </div>
+            <div class="test-btns">
+                <a href="http://bbs.360.cn/thread-14702374-1-1.html" target="_blank">下载ROM</a>
+                <a href="http://bbs.360.cn/thread-14547179-1-1.html" style="background-color: 
+
+#c9c9c9;margin-left: 20px;" target="_blank">刷机教程</a>
+            </div>
+        </div>
+</div></div></div></div>                    <div id="portal_block_240" class="block move-span"><div id="portal_block_240_content" class="dxb_bc"><div class="activitynum box">
+<h4>明星用户</h4>
+<ul><li class="activitynum-list">
+	<a href="http://bbs.360.cn/space-uid-1300120.html" c="1" target="_blank"><img src="http://ucenter.bbs.360.cn/avatar.php?uid=1300120&size=small" width="48" height="48" alt="andytxg" /></a>
+	<p class="activitynum-name"><a href="http://bbs.360.cn/space-uid-1300120.html" title="andytxg" target="_blank">andytxg</a></p>
+</li><li class="activitynum-list">
+	<a href="http://bbs.360.cn/space-uid-30035807.html" c="1" target="_blank"><img src="http://ucenter.bbs.360.cn/avatar.php?uid=30035807&size=small" width="48" height="48" alt="ZZR" /></a>
+	<p class="activitynum-name"><a href="http://bbs.360.cn/space-uid-30035807.html" title="ZZR" target="_blank">ZZR</a></p>
+</li><li class="activitynum-list">
+	<a href="http://bbs.360.cn/space-uid-30158644.html" c="1" target="_blank"><img src="http://ucenter.bbs.360.cn/avatar.php?uid=30158644&size=small" width="48" height="48" alt="散闲游人" /></a>
+	<p class="activitynum-name"><a href="http://bbs.360.cn/space-uid-30158644.html" title="散闲游人" target="_blank">散闲游人</a></p>
+</li><li class="activitynum-list">
+	<a href="http://bbs.360.cn/space-uid-30557156.html" c="1" target="_blank"><img src="http://ucenter.bbs.360.cn/avatar.php?uid=30557156&size=small" width="48" height="48" alt="jandy" /></a>
+	<p class="activitynum-name"><a href="http://bbs.360.cn/space-uid-30557156.html" title="jandy" target="_blank">jandy</a></p>
+</li><li class="activitynum-list">
+	<a href="http://bbs.360.cn/space-uid-30451518.html" c="1" target="_blank"><img src="http://ucenter.bbs.360.cn/avatar.php?uid=30451518&size=small" width="48" height="48" alt="闻新者" /></a>
+	<p class="activitynum-name"><a href="http://bbs.360.cn/space-uid-30451518.html" title="闻新者" target="_blank">闻新者</a></p>
+</li><li class="activitynum-list">
+	<a href="http://bbs.360.cn/space-uid-30157470.html" c="1" target="_blank"><img src="http://ucenter.bbs.360.cn/avatar.php?uid=30157470&size=small" width="48" height="48" alt="不满格" /></a>
+	<p class="activitynum-name"><a href="http://bbs.360.cn/space-uid-30157470.html" title="不满格" target="_blank">不满格</a></p>
+</li></ul>
+<div style="clear:both;"></div>
+</div></div></div>                    <div id="portal_block_241" class="block move-span"><div id="portal_block_241_content" class="dxb_bc"><div class="portal_block_summary"><div class="bm xm_bm" style="margin-bottom:0;">
+				<div class="download box"><h4>360社区客户端下载</h4></div>
+				<div class="bm_c">
+					<table width="100%" border="0">
+						<tr>
+							<td align="center"><img src="https://b1.qikucdn.com/dfsj_imgs/qikubbs_download.png?v=1.0" width="240" height="240"></td>
+						</tr>
+						
+					</table>
+				</div>
+			</div></div></div></div>                    <div id="portal_block_242" class="block move-span"><div id="portal_block_242_content" class="dxb_bc"><div class="portal_block_summary"><!--<div class="bm xm_bm">
+		        <div class="focusus box">
+		            <h4>关注我们</h4>
+		        </div>
+		        <div class="bm_c">
+		            <div class="focusus-img">
+		                <img src="http://b.qikucdn.com/dfsj_imgs/weixin_bbs.png?v=1.1" width="105" height="105">
+		                <img src="http://b.qikucdn.com/dfsj_imgs/weixin_360OS.jpg" width="105" height="105">
+		            </div>
+		            <div class="focusus-share">
+		            	<a href="http://weibo.com/qikushequ?is_all=1" target="_blank"> <img src="http://b.qikucdn.com/dfsj_imgs/indeximg/weibo_weibo.png?v=1.1" alt="">360手机社区</a>
+		            	<a href="http://weibo.com/qiku360os?is_all=1" target="_blank"> <img src="http://b.qikucdn.com/dfsj_imgs/indeximg/weibo_weibo.png?v=1.1" alt="">360 OS</a>
+		            </div>
+		        </div>
+			</div>--></div></div></div>                </div>
+            </div>
+            <!--[if lte IE 7]><div style="clear: both"></div><![endif]-->
+        </div>
+    </div>
+</div>
+<input type="hidden" value="page20" id="pagenum">
+<input type="hidden" value="00" id="signup"><div id="portal_block_285" class="block move-span"><div id="portal_block_285_content" class="dxb_bc"><div class="portal_block_summary"><a href="http://mall.360.com/shouji/q5" target="_blank" style="position: fixed;right: 20px;top: 50%;margin-top: -105px;display:none;"><img 
+
+src="https://b1.qikucdn.com/dfsj_imgs/baywindow_close.png" class="baywindow-close" style="position:absolute;top:-10px;right:-
+
+10px;width:20px;height:20px;"><img src="http://p7.qhmsg.com/t01d879fddb34fcd333.png" /></a></div></div></div><div class="friendlink">
+    <div id="dfsj_index4" class="area"><div id="portal_block_243" class="block move-span"><div id="portal_block_243_content" class="dxb_bc"><div class="friendlinks">
+<div class="forumlinks"><a href="http://www.360.com/"  target="_blank">360官网</a>
+<span>|</span><a href="http://mall.360.cn/?utm_source=bbs&utm_medium=tuijian"  target="_blank">360商城</a>
+<span>|</span><a href="http://www.360shouji.com/"  target="_blank">360手机官网</a>
+<span>|</span><a href="http://try.bbs.360.cn"  target="_blank">好奇者试用</a>
+<span>|</span><a href="http://bbs.cnmo.com/"  target="_blank">手机中国论坛</a>
+<span>|</span><a href="http://itbbs.pconline.com.cn/mobile/"  target="_blank">太平洋手机论坛</a>
+<span>|</span><a href="http://lt.imobile.com.cn/"  target="_blank">手机之家论坛</a>
+<span>|</span><a href="http://www.leiphone.com/"  target="_blank">雷锋网</a>
+<span>|</span><a href="http://www.igao7.com"  target="_blank">爱搞机</a>
+<span>|</span><a href="http://bbs.bhuwifi.com/portal.php"  target="_blank">必虎社区</a>
+<span>|</span><a href="http://bbs.zhiyoo.com/"  target="_blank">安卓论坛</a>
+<span>|</span><a href="http://bbs.wisenjoy.com/"  target="_blank">硬糖社区</a>
+<span>|</span><a href="http://bbs.360.cn/thread-201779-1-1.html">申请加入</a>
+</div>
+</div></div></div></div>
+</div>
+
+<!-- main end -->
+<script type="text/javascript">
+
+    var getpagenum=parseInt(dfsj_jq("#signup").attr("value"));
+    if(getpagenum){
+        dfsj_jq(".sign-link").text("已签到");
+    }
+
+    dfsj_jq(".right-signnums").text(8140);
+
+    dfsj_jq(".xm_nav>span:eq(0)>a").css("color","#2ec7bb");
+
+    dfsj_jq(".stable-box").click(function(){
+        dfsj_jq(".stable-box").css("color","#2ec7bb").css("border-bottom","1px solid #2ec7bb");
+        dfsj_jq(".test-box").css("color","#3c3c3c").css("border-bottom","none");
+        dfsj_jq(".update-test").hide();
+        dfsj_jq(".update-stable").show();
+    });
+
+    dfsj_jq(".test-box").click(function(){
+        dfsj_jq(".test-box").css("color","#2ec7bb").css("border-bottom","1px solid #2ec7bb");
+        dfsj_jq(".stable-box").css("color","#3c3c3c").css("border-bottom","none");
+        dfsj_jq(".update-stable").hide();
+        dfsj_jq(".update-test").show();
+    });
+//热门推荐和最新主贴切换
+dfsj_jq(".hot-posts").click(function(){
+dfsj_jq(".hot-posts").addClass("posts-selected");
+dfsj_jq(".new-posts").removeClass("posts-selected");
+dfsj_jq(".hot-posts-pannel").show();
+dfsj_jq(".new-posts-pannel").hide();
+});
+dfsj_jq(".new-posts").click(function(){
+dfsj_jq(".new-posts").addClass("posts-selected");
+dfsj_jq(".hot-posts").removeClass("posts-selected");
+dfsj_jq(".hot-posts-pannel").hide();
+dfsj_jq(".new-posts-pannel").show();
+});
+
+    dfsj_jq(function(){
+        var topColWidth=dfsj_jq(".dfsj_focus .topCol ul:last-child").width();
+        var topColHalfWidth=(1225-topColWidth)/2;
+        dfsj_jq(".dfsj_focus .topCol ul").css("left",topColHalfWidth);
+        var getpagenum=dfsj_jq("#pagenum").attr("value");
+        var pagenum;
+        if(getpagenum=="page"){
+            pagenum=1;
+        }else{
+            pagenum=parseInt(getpagenum.substr(4));
+        }
+        var pagecontent="";
+        for(var i=1;i<=pagenum;i++){
+            pagecontent+='<a href="http://bbs.360.cn/newindex.php?page='+i+'">'+i+'</a>';
+        }
+        dfsj_jq(".index-pages").append(pagecontent);
+
+        var url = location.search;
+        var pagenum = url.substr(url.indexOf('=') + 1) - 1;
+        if(pagenum==-1) pagenum=0;
+        dfsj_jq(".index-pages>a:eq("+pagenum+")").addClass("index-pages-select");
+
+
+    });
+
+    var week; 
+    var d = new Date();
+    var day = d.getDay();
+    if(day==0) week="星期日";
+    if(day==1) week="星期一";
+    if(day==2) week="星期二";
+    if(day==3) week="星期三";
+    if(day==4) week="星期四";
+    if(day==5) week="星期五";
+    if(day==6) week="星期六";
+
+    var vMon = d.getMonth() + 1;
+    var vDay = d.getDate();
+    var days=vMon+"."+vDay;
+    dfsj_jq(".right-week").text(week);
+    dfsj_jq(".right-day").text(days);
+    dfsj_jq(".right-signnums").text(8140);
+
+
+
+    var shareurl="";
+    var sharedec="";
+//给微博分享加上链接
+dfsj_jq(".share_xinlang").each(function(){
+var xinlangTitle=dfsj_jq(this).parent().parent().parent().parent().find(".new-title a").text();
+var xinlangUrl=dfsj_jq(this).parent().parent().parent().parent().find(".new-title a").attr("href");
+dfsj_jq(this).attr("href","http://v.t.sina.com.cn/share/share.php?url=http://bbs.360.cn/"+encodeURIComponent(xinlangUrl)+"&appkey=1874498659&title="+xinlangTitle+"——来自@360社区");
+});
+
+    dfsj_jq(".news-share").hover(function(){
+        dfsj_jq(".share-index").hide();
+        dfsj_jq(this).parent().next().show();
+        sharedec=dfsj_jq(this).parent().parent().prev().prev().children().text();
+        shareurl="http://bbs.360.cn/"+dfsj_jq(this).parent().parent().prev().prev().children().attr("href");
+        qqshare();
+    });
+
+    dfsj_jq(".share-index").hover(function(){
+        dfsj_jq(this).show();
+    },function(){
+        dfsj_jq(".share-index").hide();
+    });
+
+    window.onscroll = function() {
+        dfsj_jq(".share-index").hide();
+    };
+
+    window._bd_share_config = {
+        "common": {
+            bdText: sharedec,
+            bdDesc: sharedec,
+            bdUrl: shareurl,
+            bdSnsKey: {
+                'tsina': '3154391214',
+                'qzone': '3154391214',
+                'weixin': '3154391214',
+                'tieba': '3154391214'
+            }
+        },
+        "share": {}
+    };
+    with(document) 0[(getElementsByTagName('head')[0] || body).appendChild(createElement('script')).src = 'http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion=' + ~(-new Date() / 36e5)];
+
+    dfsj_jq("a.share_qqone").click(function(){
+        var title = sharedec;
+        var rLink = shareurl;
+        var summary=sharedec;
+        var site = "360社区";
+        var pic="";
+        shareQzone(title, rLink, summary, site, pic);
+    });
+
+    
+    var qqshare=function() {
+        var p = {
+            url:shareurl,
+            desc: sharedec,
+            title: sharedec,
+            summary:sharedec,
+            pics: "",
+            site: '360社区',
+        };
+        var s = [];
+        for (var i in p) {
+            s.push(i + '=' + encodeURIComponent(p[i] || ''));
+        }
+        dfsj_jq(".share_qq").attr("href","http://connect.qq.com/widget/shareqq/index.html?"+s.join('&'));
+    };
+
+    function shareQzone(title, url, summary, site, picurl) {
+        var top = window.screen.height / 2 - 250;
+        var left = window.screen.width / 2 - 300;
+        var shareqqzonestring='http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?title='+title+'&url='+encodeURIComponent(url)+'&summary='+summary+'&site='+site+'&pics='+encodeURIComponent(picurl);
+        window.open(shareqqzonestring, 'newwindow', 'scrollbars=no,width=600,height=450,left=' + left + ',top=' + top + ',status=no,resizable=yes');
+    }
+
+</script>
+
+<div><html>
+</div>
+            
+                        
+
+    <script src="http://s1.qhmsg.com/static/4c21c886fbbfaa65/monitor_analytic.js"></script>
+<script>
+monitor.setProject('QH_82_1').getTrack().getClickAndKeydown().getClickHeatmap(10, 1);
+</script>                            
+    
+        <script src="http://bbs.360.cn/home.php?mod=misc&ac=sendmail&rand=1488093661" type="text/javascript"></script>
+    
+    <div id="scrolltop">
+        <span hidefocus="true"><a title="返回顶部" onClick="window.scrollTo('0','0')" class="scrolltopa" ><b>返回顶部</b></a></span>
+    </div>
+<script type="text/javascript">_attachEvent(window, 'scroll', function () { showTopLink(); });checkBlind();</script>
+    <script src="https://b1.qikucdn.com/static/js/html2dynamic.js?r5x" type="text/javascript"></script>
+    <script type="text/javascript">
+        var html_lostmodify = 1488093661;
+        htmlGetUserStatus();
+            </script>
+			<div id="discuz_tips" style="display:none;"></div>
+			<script type="text/javascript">
+				var tipsinfo = '25595882|X3.1|0.6||0||0|7|1488093661|b8a4399a66b2747581c80c08221ce442|2';
+			</script>
+			<script src="http://discuz.gtimg.cn/cloud/scripts/discuz_tips.js?v=1" type="text/javascript" charset="UTF-8"></script><script type="text/javascript">
+            jq(function(){
+                // adjust height
+                var win_h = jq(window).height(), 
+                    body_h = jq(document.body).height();
+                if(body_h < win_h) {
+                    jq("#wp").height( jq("#wp").height() + (win_h-body_h) );
+                }
+            });
+</script>
+ 
+    <div id="ft" class="xm_footer">
+        <div class="xm_footerInner">
+            <div style="clear:both;"></div>
+            <div class="xm_footerInnerInner">
+               <!-- <a href="http://bbs.360.cn/newindex.php" class="logo"><em>360社区</em></a> -->
+                <div class="links">
+                <a href="http://bbs.360.cn/thread-14623327-1-1.html" >社区合作</a><span class="pipe">|</span><a href="forum.php?mod=misc&action=showdarkroom" >小黑屋</a><span class="pipe">|</span><a href="http://bbs.360.cn/archiver/" >Archiver</a><span class="pipe">|</span>                    备案证号：<a href="http://www.miibeian.gov.cn/" target="_blank">京ICP备08010314号-6</a>&nbsp; Copyright&copy;2005-2017 360.com 版权所有 360互联网安全中心 <!-- All Rights Reserved -->
+                </div>
+            </div>
+        </div>
+    </div>
+</html>

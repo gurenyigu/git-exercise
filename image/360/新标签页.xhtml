@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+<!DOCTYPE html [
+  <!ENTITY % newTabDTD SYSTEM "chrome://browser/locale/newTab.dtd">
+  %newTabDTD;
+  <!ENTITY % browserDTD SYSTEM "chrome://browser/locale/browser.dtd">
+  %browserDTD;
+  <!ENTITY % globalDTD SYSTEM "chrome://global/locale/global.dtd">
+  %globalDTD;
+]>
+<html xmlns="http://www.w3.org/1999/xhtml" hasBrowserHandlers="true">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <title>新标签页</title>
+
+  <link rel="stylesheet" type="text/css" media="all" href="%E6%96%B0%E6%A0%87%E7%AD%BE%E9%A1%B5_files/global.css" />
+  <link rel="stylesheet" type="text/css" media="all" href="%E6%96%B0%E6%A0%87%E7%AD%BE%E9%A1%B5_files/contentSearchUI.css" />
+  <link rel="stylesheet" type="text/css" media="all" href="%E6%96%B0%E6%A0%87%E7%AD%BE%E9%A1%B5_files/newTab_002.css" />
+  <link rel="stylesheet" type="text/css" media="all" href="%E6%96%B0%E6%A0%87%E7%AD%BE%E9%A1%B5_files/newTab.css" />
+</head>
+
+<body dir="ltr">
+  <div id="newtab-customize-overlay"></div>
+
+  <div class="newtab-customize-panel-container">
+    <div id="newtab-customize-panel" orient="vertical">
+        <div id="newtab-customize-panel-anchor"></div>
+        <div id="newtab-customize-panel-inner-wrapper">
+          <div id="newtab-customize-title" class="newtab-customize-panel-item">
+            <label>新标签页选项</label>
+          </div>
+
+          <div class="newtab-customize-complex-option">
+            <div id="newtab-customize-classic" class="newtab-customize-panel-superitem newtab-customize-panel-item selectable" selected="true">
+                <label>显示您常用的网站</label>
+            </div>
+            <div id="newtab-customize-enhanced" class="newtab-customize-panel-subitem" selected="true">
+                <label class="checkbox"></label>
+                <label>包括推荐网站</label>
+            </div>
+          </div>
+          <div id="newtab-customize-blank" class="newtab-customize-panel-item selectable">
+            <label>显示空白页</label>
+          </div>
+          <div id="newtab-customize-learn" class="newtab-customize-panel-item">
+            <label>了解有关新标签页的信息</label>
+          </div>
+        </div>
+    </div>
+  </div>
+
+  <div id="newtab-vertical-margin">
+    <div id="newtab-margin-top"></div>
+    <div id="newtab-margin-undo-container">
+      <div id="newtab-undo-container" undo-disabled="true">
+        <label id="newtab-undo-label">缩略图已删除。</label>
+        <button id="newtab-undo-button" tabindex="-1" class="newtab-undo-button">撤销</button>
+        <button id="newtab-undo-restore-button" tabindex="-1" class="newtab-undo-button">全部恢复</button>
+        <button id="newtab-undo-close-button" tabindex="-1" title="隐藏"></button>
+      </div>
+    </div>
+
+    <div id="newtab-search-container">
+      <div id="newtab-search-form">
+        <div id="newtab-search-icon"></div>
+        <input name="q" id="newtab-search-text" aria-label="搜索查询" maxlength="256" dir="auto" autocomplete="off" aria-autocomplete="true" aria-controls="searchSuggestionTable" aria-expanded="false" placeholder="搜索" type="text" />
+        <input id="newtab-search-submit" title="提交搜索" value="▶" type="button" />
+      <table id="searchSuggestionTable" class="contentSearchSuggestionTable" role="presentation" hidden=""><tr class="contentSearchHeaderRow"><td class="contentSearchHeader" id="contentSearchDefaultEngineHeader"><img src="blob:null/78e7ad5f-f15f-4ef0-8b9f-1661696d0567" />用 百度 搜索</td></tr><tr class="contentSearchSuggestionsContainer"><td class="contentSearchSuggestionsContainer"><table class="contentSearchSuggestionsList" role="listbox"></table></td></tr><table class="contentSearchOneOffsTable contentSearchSuggestionsContainer" role="group"><tr class="contentSearchHeaderRow"><td class="contentSearchHeader" id="contentSearchSearchWithHeader">搜索引擎：</td></tr></table><button class="contentSearchSettingsButton contentSearchHeaderRow contentSearchHeader" id="contentSearchSettingsButton" aria-selected="false">更改搜索设置</button></table></div>
+    </div>
+
+    <div id="newtab-horizontal-margin">
+      <div class="newtab-side-margin"></div>
+      <div id="newtab-grid" style="width: 1550px; max-width: 1551px; height: 802px; max-height: 800px;"><div class="newtab-cell"><div class="newtab-site" draggable="true" type="history"><span class="newtab-sponsored">赞助</span><a class="newtab-link" title="首页
+http://nts.newbieol.com/" href="http://nts.newbieol.com/">  <span class="newtab-thumbnail placeholder"></span>  <span class="newtab-thumbnail thumbnail" style="background-image: url(&quot;moz-page-thumb://thumbnail/?url=http%3A%2F%2Fnts.newbieol.com%2F&amp;revision=3230&quot;);"></span>  <span class="newtab-thumbnail enhanced-content"></span>  <span class="newtab-title">nts.newbieol.com</span></a><input title="将此网站固定在它当前的位置" class="newtab-control newtab-control-pin" type="button" /><input title="移除这个网站" class="newtab-control newtab-control-block" type="button" /><span class="newtab-suggested"></span></div></div><div class="newtab-cell"><div class="newtab-site" draggable="true" type="history"><span class="newtab-sponsored">赞助</span><a class="newtab-link" title="http://www.baidu.com/" href="http://www.baidu.com/">  <span class="newtab-thumbnail placeholder"></span>  <span class="newtab-thumbnail thumbnail" style="background-image: url(&quot;moz-page-thumb://thumbnail/?url=http%3A%2F%2Fwww.baidu.com%2F&amp;revision=4776&quot;);"></span>  <span class="newtab-thumbnail enhanced-content"></span>  <span class="newtab-title">baidu.com</span></a><input title="将此网站固定在它当前的位置" class="newtab-control newtab-control-pin" type="button" /><input title="移除这个网站" class="newtab-control newtab-control-block" type="button" /><span class="newtab-suggested"></span></div></div><div class="newtab-cell"><div class="newtab-site" draggable="true" type="history"><span class="newtab-sponsored">赞助</span><a class="newtab-link" title="ajax发送post请求
+file:///var/www/html/09.ajax.html" href="file:///var/www/html/09.ajax.html">  <span class="newtab-thumbnail placeholder"></span>  <span class="newtab-thumbnail thumbnail" style="background-image: url(&quot;moz-page-thumb://thumbnail/?url=file%3A%2F%2F%2Fvar%2Fwww%2Fhtml%2F09.ajax.html&amp;revision=2604&quot;);"></span>  <span class="newtab-thumbnail enhanced-content"></span>  <span class="newtab-title"></span></a><input title="将此网站固定在它当前的位置" class="newtab-control newtab-control-pin" type="button" /><input title="移除这个网站" class="newtab-control newtab-control-block" type="button" /><span class="newtab-suggested"></span></div></div><div class="newtab-cell"><div class="newtab-site" draggable="true" type="history"><span class="newtab-sponsored">赞助</span><a class="newtab-link" title="Index of /download
+http://192.168.1.112/download/" href="http://192.168.1.112/download/">  <span class="newtab-thumbnail placeholder"></span>  <span class="newtab-thumbnail thumbnail" style="background-image: url(&quot;moz-page-thumb://thumbnail/?url=http%3A%2F%2F192.168.1.112%2Fdownload%2F&amp;revision=2349&quot;);"></span>  <span class="newtab-thumbnail enhanced-content"></span>  <span class="newtab-title">192.168.1.112</span></a><input title="将此网站固定在它当前的位置" class="newtab-control newtab-control-pin" type="button" /><input title="移除这个网站" class="newtab-control newtab-control-block" type="button" /><span class="newtab-suggested"></span></div></div><div class="newtab-cell"><div class="newtab-site" draggable="true" type="history"><span class="newtab-sponsored">赞助</span><a class="newtab-link" title="百度网盘 享你所想
+https://pan.baidu.com/" href="https://pan.baidu.com/">  <span class="newtab-thumbnail placeholder"></span>  <span class="newtab-thumbnail thumbnail" style="background-image: url(&quot;moz-page-thumb://thumbnail/?url=https%3A%2F%2Fpan.baidu.com%2F&amp;revision=446&quot;);"></span>  <span class="newtab-thumbnail enhanced-content"></span>  <span class="newtab-title">pan.baidu.com</span></a><input title="将此网站固定在它当前的位置" class="newtab-control newtab-control-pin" type="button" /><input title="移除这个网站" class="newtab-control newtab-control-block" type="button" /><span class="newtab-suggested"></span></div></div><div class="newtab-cell"><div class="newtab-site" draggable="true" type="history"><span class="newtab-sponsored">赞助</span><a class="newtab-link" title="Atom
+https://atom.io/" href="https://atom.io/">  <span class="newtab-thumbnail placeholder"></span>  <span class="newtab-thumbnail thumbnail" style="background-image: url(&quot;moz-page-thumb://thumbnail/?url=https%3A%2F%2Fatom.io%2F&amp;revision=4535&quot;);"></span>  <span class="newtab-thumbnail enhanced-content"></span>  <span class="newtab-title">atom.io</span></a><input title="将此网站固定在它当前的位置" class="newtab-control newtab-control-pin" type="button" /><input title="移除这个网站" class="newtab-control newtab-control-block" type="button" /><span class="newtab-suggested"></span></div></div><div class="newtab-cell"><div class="newtab-site" draggable="true" type="history"><span class="newtab-sponsored">赞助</span><a class="newtab-link" title="菜鸟在线_移动互联网职业技能在线教育平台
+http://www.newbieol.com/" href="http://www.newbieol.com/">  <span class="newtab-thumbnail placeholder"></span>  <span class="newtab-thumbnail thumbnail" style="background-image: url(&quot;moz-page-thumb://thumbnail/?url=http%3A%2F%2Fwww.newbieol.com%2F&amp;revision=5454&quot;);"></span>  <span class="newtab-thumbnail enhanced-content"></span>  <span class="newtab-title">newbieol.com</span></a><input title="将此网站固定在它当前的位置" class="newtab-control newtab-control-pin" type="button" /><input title="移除这个网站" class="newtab-control newtab-control-block" type="button" /><span class="newtab-suggested"></span></div></div><div class="newtab-cell"><div class="newtab-site" draggable="true" type="history"><span class="newtab-sponsored">赞助</span><a class="newtab-link" title="素锦
+http://isujin.com/" href="http://isujin.com/">  <span class="newtab-thumbnail placeholder"></span>  <span class="newtab-thumbnail thumbnail" style="background-image: url(&quot;moz-page-thumb://thumbnail/?url=http%3A%2F%2Fisujin.com%2F&amp;revision=6436&quot;);"></span>  <span class="newtab-thumbnail enhanced-content"></span>  <span class="newtab-title">isujin.com</span></a><input title="将此网站固定在它当前的位置" class="newtab-control newtab-control-pin" type="button" /><input title="移除这个网站" class="newtab-control newtab-control-block" type="button" /><span class="newtab-suggested"></span></div></div><div class="newtab-cell"><div class="newtab-site" draggable="true" type="history"><span class="newtab-sponsored">赞助</span><a class="newtab-link" title="CSS 框模型概述
+http://www.w3school.com.cn/css/css_boxmodel.asp" href="http://www.w3school.com.cn/css/css_boxmodel.asp">  <span class="newtab-thumbnail placeholder"></span>  <span class="newtab-thumbnail thumbnail" style="background-image: url(&quot;moz-page-thumb://thumbnail/?url=http%3A%2F%2Fwww.w3school.com.cn%2Fcss%2Fcss_boxmodel.asp&amp;revision=5472&quot;);"></span>  <span class="newtab-thumbnail enhanced-content"></span>  <span class="newtab-title">w3school.com.cn</span></a><input title="将此网站固定在它当前的位置" class="newtab-control newtab-control-pin" type="button" /><input title="移除这个网站" class="newtab-control newtab-control-block" type="button" /><span class="newtab-suggested"></span></div></div><div class="newtab-cell"><div class="newtab-site" draggable="true" type="history"><span class="newtab-sponsored">赞助</span><a class="newtab-link" title="360社区-360粉丝大本营，是360互联网安全软件、360手机、360智能硬件，360OS用户互动交流社区平台
+http://bbs.360.cn/forumall.php" href="http://bbs.360.cn/forumall.php">  <span class="newtab-thumbnail placeholder"></span>  <span class="newtab-thumbnail thumbnail" style="background-image: url(&quot;moz-page-thumb://thumbnail/?url=http%3A%2F%2Fbbs.360.cn%2Fforumall.php&amp;revision=4315&quot;);"></span>  <span class="newtab-thumbnail enhanced-content"></span>  <span class="newtab-title">bbs.360.cn</span></a><input title="将此网站固定在它当前的位置" class="newtab-control newtab-control-pin" type="button" /><input title="移除这个网站" class="newtab-control newtab-control-block" type="button" /><span class="newtab-suggested"></span></div></div><div class="newtab-cell"><div class="newtab-site" draggable="true" type="history"><span class="newtab-sponsored">赞助</span><a class="newtab-link" title="淘宝网 - 淘！我喜欢
+https://www.taobao.com/" href="https://www.taobao.com/">  <span class="newtab-thumbnail placeholder"></span>  <span class="newtab-thumbnail thumbnail" style="background-image: url(&quot;moz-page-thumb://thumbnail/?url=https%3A%2F%2Fwww.taobao.com%2F&amp;revision=7246&quot;);"></span>  <span class="newtab-thumbnail enhanced-content"></span>  <span class="newtab-title">taobao.com</span></a><input title="将此网站固定在它当前的位置" class="newtab-control newtab-control-pin" type="button" /><input title="移除这个网站" class="newtab-control newtab-control-block" type="button" /><span class="newtab-suggested"></span></div></div><div class="newtab-cell"><div class="newtab-site" draggable="true" type="history"><span class="newtab-sponsored">赞助</span><a class="newtab-link" title="雨滴美化社区|Rainmeter-中国最具影响力的美化论坛 - Powered by Discuz!
+http://bbs.rainmeter.cn/" href="http://bbs.rainmeter.cn/">  <span class="newtab-thumbnail placeholder"></span>  <span class="newtab-thumbnail thumbnail" style="background-image: url(&quot;moz-page-thumb://thumbnail/?url=http%3A%2F%2Fbbs.rainmeter.cn%2F&amp;revision=7096&quot;);"></span>  <span class="newtab-thumbnail enhanced-content"></span>  <span class="newtab-title">bbs.rainmeter.cn</span></a><input title="将此网站固定在它当前的位置" class="newtab-control newtab-control-pin" type="button" /><input title="移除这个网站" class="newtab-control newtab-control-block" type="button" /><span class="newtab-suggested"></span></div></div><div class="newtab-cell"><div class="newtab-site" draggable="true" type="history"><span class="newtab-sponsored">赞助</span><a class="newtab-link" title="flexbox-CSS3弹性盒模型flexbox完整版教程-前端开发博客
+http://caibaojian.com/flexbox-guide.html" href="http://caibaojian.com/flexbox-guide.html">  <span class="newtab-thumbnail placeholder"></span>  <span class="newtab-thumbnail thumbnail" style="background-image: url(&quot;moz-page-thumb://thumbnail/?url=http%3A%2F%2Fcaibaojian.com%2Fflexbox-guide.html&amp;revision=6515&quot;);"></span>  <span class="newtab-thumbnail enhanced-content"></span>  <span class="newtab-title">caibaojian.com</span></a><input title="将此网站固定在它当前的位置" class="newtab-control newtab-control-pin" type="button" /><input title="移除这个网站" class="newtab-control newtab-control-block" type="button" /><span class="newtab-suggested"></span></div></div><div class="newtab-cell"><div class="newtab-site" draggable="true" type="history"><span class="newtab-sponsored">赞助</span><a class="newtab-link" title="京东网上商城
+http://union.click.jd.com/sem.php?source=baidu-pinzhuan&amp;unionId=288551095&amp;siteId=baidupinzhuan_0f3d30c8dba7459bb52f2eb5eba8ac7d&amp;to=http%3a%2f%2fwww.jd.com" href="http://union.click.jd.com/sem.php?source=baidu-pinzhuan&amp;unionId=288551095&amp;siteId=baidupinzhuan_0f3d30c8dba7459bb52f2eb5eba8ac7d&amp;to=http%3a%2f%2fwww.jd.com">  <span class="newtab-thumbnail placeholder"></span>  <span class="newtab-thumbnail thumbnail" style="background-image: url(&quot;moz-page-thumb://thumbnail/?url=http%3A%2F%2Funion.click.jd.com%2Fsem.php%3Fsource%3Dbaidu-pinzhuan%26unionId%3D288551095%26siteId%3Dbaidupinzhuan_0f3d30c8dba7459bb52f2eb5eba8ac7d%26to%3Dhttp%253a%252f%252fwww.jd.com&amp;revision=3622&quot;);"></span>  <span class="newtab-thumbnail enhanced-content"></span>  <span class="newtab-title">union.click.jd.com</span></a><input title="将此网站固定在它当前的位置" class="newtab-control newtab-control-pin" type="button" /><input title="移除这个网站" class="newtab-control newtab-control-block" type="button" /><span class="newtab-suggested"></span></div></div><div class="newtab-cell"><div class="newtab-site" draggable="true" type="history"><span class="newtab-sponsored">赞助</span><a class="newtab-link" title="GitHub - TrustTheBoy/ReactNativeBBS: React Native BBS / 技术栈 / 案例 / Update React Native,React Native着力于提高多平台开发的开发效率 —— 仅需学习一次，编写任何平台
+https://github.com/TrustTheBoy/ReactNativeBBS" href="https://github.com/TrustTheBoy/ReactNativeBBS">  <span class="newtab-thumbnail placeholder"></span>  <span class="newtab-thumbnail thumbnail" style="background-image: url(&quot;moz-page-thumb://thumbnail/?url=https%3A%2F%2Fgithub.com%2FTrustTheBoy%2FReactNativeBBS&amp;revision=2413&quot;);"></span>  <span class="newtab-thumbnail enhanced-content"></span>  <span class="newtab-title">github.com</span></a><input title="将此网站固定在它当前的位置" class="newtab-control newtab-control-pin" type="button" /><input title="移除这个网站" class="newtab-control newtab-control-block" type="button" /><span class="newtab-suggested"></span></div></div></div>
+      <div class="newtab-side-margin"></div>
+    </div>
+    <div id="newtab-margin-bottom"></div>
+  </div>
+  <input id="newtab-customize-button" dir="ltr" value="⚙" title="定制您的“新标签页”" type="button" />
+</body>
+<script type="text/javascript;version=1.8" src="%E6%96%B0%E6%A0%87%E7%AD%BE%E9%A1%B5_files/contentSearchUI.js"></script>
+<script type="text/javascript;version=1.8" src="%E6%96%B0%E6%A0%87%E7%AD%BE%E9%A1%B5_files/newTab.js"></script>
+</html>

@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>京东登录</title>
+    <style>
+        a,
+        address,
+        b,
+        big,
+        blockquote,
+        body,
+        center,
+        cite,
+        code,
+        dd,
+        del,
+        div,
+        dl,
+        dt,
+        em,
+        fieldset,
+        font,
+        form,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        html,
+        i,
+        iframe,
+        img,
+        ins,
+        label,
+        legend,
+        li,
+        ol,
+        p,
+        pre,
+        small,
+        span,
+        strong,
+        u,
+        ul,
+        var {
+            margin: 0;
+            padding: 0;
+        }
+
+        .clearfix::after,
+        .clearfix::before {
+            content: " ";
+            height: 0;
+            line-height: 0;
+            display: block;
+            visibility: hidden;
+            clear: both;
+        }
+
+        body {
+            font: 12px/150% Arial, Verdana, "\5b8b\4f53";
+        }
+
+        .w {
+            width: 990px;
+            margin: 0 auto;
+        }
+
+        a:hover {
+            color: #E4393C;
+            text-decoration: underline;
+        }
+
+        a {
+            text-decoration: none;
+            color: #666;
+        }
+
+        li {
+            list-style: none;
+        }
+        /*.hair {
+      height: 60px;
+    }*/
+
+        .head-left {
+            position: relative;
+            width: 300px;
+            margin: 10px 0;
+            height: 60px;
+            float: left;
+        }
+
+        .head-left b {
+            display: block;
+            background: url("../image/jd-DL/l-icon.png");
+            width: 110px;
+            height: 40px;
+            /*float: right;*/
+            position: absolute;
+            right: 0;
+            top: 10px;
+        }
+
+        .head-right {
+            /*display: block;
+      width: 136px;
+      height: 18px;*/
+            float: right;
+            position: relative;
+            color: #999;
+            top: 52px;
+        }
+
+        .head-right b {
+            width: 18px;
+            height: 14px;
+            display: inline-block;
+            /*float: left;*/
+            background: url("../image/jd-DL/q-icon.png");
+            margin: 0 5px;
+            vertical-align: middle;
+            overflow: hidden;
+        }
+
+        .head {
+            clear: both;
+        }
+
+        .back {
+
+            height: 475px;
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+        }
+
+        .backimg {
+            height: 475px;
+            background: url("../image/jd-DL/58a6fcaeN1fed6787.jpg");
+            position: relative;
+            z-index: 1;
+        }
+
+        .dl {
+            top: 40px;
+            right: 0px;
+            position: relative;
+            background: #fff;
+            width: 346px;
+            /*height: 361.5px;*/
+            z-index: 2;
+            float: right;
+        }
+
+        .head-box {
+            position: relative;
+            height: 475px;
+            margin: 10px 0 20px;
+        }
+        /*.top-left {
+     width: 173px;
+     height: 54px;
+     border-bottom: solid 1px #f4f4f4;
+     font-size: 18px;
+     text-align: center;
+     float: left;
+     position: relative;
+   }*/
+
+        .top {
+            width: 173px;
+            height: 54px;
+            border-bottom: solid 1px #f4f4f4;
+            font-size: 18px;
+            text-align: center;
+            float: left;
+            position: relative;
+        }
+
+        .left-a {
+            border-right: solid 1px #f4f4f4;
+            display: block;
+            height: 18px;
+            position: absolute;
+            top: 18px;
+            width: 99%;
+            left: 0px;
+        }
+
+        .top a:hover {
+            font-weight: 700;
+            color: #e4393c;
+            text-decoration: none;
+        }
+
+        .right-a {
+            /*border-right: solid 1px #f4f4f4;*/
+            display: block;
+            height: 18px;
+            position: absolute;
+            top: 18px;
+            width: 99%;
+            left: 0px;
+        }
+
+        .center {
+            width: 306px;
+            padding: 20px;
+            /*height: 270px;*/
+        }
+
+        .error {
+            min-height: 23px;
+            margin-top: 40px;
+            margin-bottom: 5px;
+        }
+
+        .msg {
+            position: relative;
+            background: #fef4e5;
+            color: #666;
+            border: 1px solid #f6c090;
+            padding: 3px 10px 3px 50px;
+            line-height: 15px;
+            height: auto;
+            width: 246px;
+        }
+
+        .msg b {
+            position: absolute;
+            top: 16%;
+            left: 10px;
+            display: block;
+            /*margin-top: -8px;*/
+            width: 16px;
+            height: 17px;
+            overflow: hidden;
+            background: url("../image/jd-DL/pwd-icons-new.png") -104px -24px no-repeat;
+        }
+
+        .login,
+        .pwd {
+            border: 1px solid #bdbdbd;
+            height: 38px;
+            width: 304px;
+            margin-bottom: 20px;
+            position: relative;
+        }
+
+        .login-img {
+            position: absolute;
+            z-index: 3;
+            top: 0;
+            left: 0;
+            width: 38px;
+            height: 38px;
+            border-right: 1px solid #bdbdbd;
+            background: url("../image/jd-DL/pwd-icons-new.png") no-repeat;
+        }
+
+        .user,
+        .pwd-in {
+            line-height: 18px;
+            height: 18px;
+
+            /* 这两句配合 */
+            outline: medium;
+            border: none;
+            /* 清除边框效果  */
+            padding: 10px 0 10px 50px;
+            width: 254px;
+            /*float: none;*/
+            overflow: hidden;
+            font-size: 14px;
+            font-family: '\5b8b\4f53';
+            /*zoom:1;*/
+        }
+        /*input {
+     -webkit-appearance: textfield;
+     background-color: white;
+     -webkit-rtl-ordering: logical;
+     user-select: text;
+     cursor: auto;
+   }
+   input button {
+     -webkit-writing-mode: horizontal-tb;
+     text-rendering: auto;
+     color: initial;
+     letter-spacing: normal;
+     word-spacing: normal;
+     text-transform: none;
+     text-indent: 0px;
+     text-shadow: none;
+     display: inline-block;
+     text-align: start;
+     margin: 0em 0em 0em 0em;
+     font: 13.3333px Arial;
+   }*/
+
+        .warn {
+            position: relative;
+            background: #fef4e5;
+            color: #666;
+            border: 1px solid #f6c090;
+            padding: 3px 10px 3px 50px;
+            line-height: 15px;
+            height: auto;
+            width: 246px;
+        }
+
+        .warn b {
+            position: absolute;
+            top: 16%;
+            left: 10px;
+            display: block;
+            /*margin-top: -8px;*/
+            width: 16px;
+            height: 17px;
+            overflow: hidden;
+            background: url("../image/jd-DL/pwd-icons-new.png") -104px -49px no-repeat;
+        }
+
+        .clear-text {
+            position: absolute;
+            right: 6px;
+            top: 12px;
+            width: 14px;
+            height: 14px;
+            background: url("../image/jd-DL/pwd-icons-new.png") -25px -143px no-repeat;
+            cursor: pointer;
+        }
+
+        .clear-text:hover {
+            background-position: -50px -143px;
+        }
+
+        .pwd-img {
+            position: absolute;
+            z-index: 3;
+            top: 0;
+            left: 0;
+            width: 38px;
+            height: 38px;
+            border-right: 1px solid #bdbdbd;
+            background: url("../image/jd-DL/pwd-icons-new.png") no-repeat -48px 0;
+        }
+
+        .itmt {
+            margin-bottom: 13px;
+            position: relative;
+        }
+
+        .itmt-in {
+            font-size: 14px;
+            padding: 7px 5px;
+            vertical-align: middle;
+            margin-right: 10px;
+            text-align: center;
+            line-height: 18px;
+            height: 18px;
+            width: 150px;
+            overflow: hidden;
+            outline: medium;
+            /*border: none;*/
+            border: 1px solid #bdbdbd;
+            float: left;
+        }
+
+        .code {
+            cursor: pointer;
+            width: 90px;
+            height: 33px;
+            vertical-align: middle;
+            float: left;
+            border: 1px solid #bdbdbd;
+        }
+
+        .itmt:after,
+        .out:after {
+            display: block;
+            content: "clear";
+            height: 0;
+            clear: both;
+            overflow: hidden;
+            visibility: hidden;
+        }
+
+        .itmt a {
+            display: inline-block;
+            width: 38px;
+            float: right;
+        }
+
+        .itme {
+            position: relative;
+            margin-bottom: 20px;
+        }
+
+        .wj {
+            position: absolute;
+            right: 0;
+        }
+
+        .checkbox {
+            /*float: none;*/
+            vertical-align: middle;
+            /*_vertical-align: -1px;*/
+            margin: 0 3px 0 0;
+            /*padding: 0;*/
+        }
+
+        .form-five {
+            margin-bottom: 10px;
+            position: relative;
+        }
+
+        .login-btn {
+            border: 1px solid #cb2a2d;
+            /*margin: 0 auto;*/
+            height: 32px;
+            width: 100%;
+            position: relative;
+        }
+
+        .login-btn a {
+            display: block;
+            width: 306px;
+            background: #e4393c;
+            height: 32px;
+            line-height: 31px;
+            color: #fff;
+            font-size: 20px;
+            text-align: center;
+            text-decoration: none;
+        }
+
+        .out {
+            padding-left: 20px;
+            padding-right: 20px;
+            line-height: 50px;
+            border-top: 1px solid #f4f4f4;
+            height: auto;
+            background-color: #fcfcfc;
+        }
+
+        .QQ {
+            display: inline-block;
+            position: relative;
+            padding-left: 24px;
+        }
+
+        .QQ b {
+            width: 19px;
+            height: 18px;
+            display: block;
+            background: url("../image/jd-DL/QQ-weixin.png") no-repeat;
+            margin: 0 auto;
+            position: absolute;
+            /*float: left;*/
+            left: 0;
+            top: 16px;
+        }
+
+        .out li {
+            float: left;
+            position: relative;
+        }
+
+        .line {
+            color: #ccc;
+            padding: 0 10px;
+        }
+
+        .new {
+            font-size: 14px;
+        }
+
+        .new a b {
+            display: inline-block;
+            width: 16px;
+            height: 16px;
+            overflow: hidden;
+            background: url("../image/jd-DL/pwd-icons-new.png") -104px -75px no-repeat;
+            vertical-align: middle;
+            margin-right: 5px;
+        }
+
+        .beard {
+            padding-bottom: 30px;
+            text-align: center;
+        }
+
+        .beard a {
+            margin: 0 10px;
+        }
+
+        .last {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="w">
+        <div class="head-left">
+            <a href="../index.html">
+                <img src="../image/jd-DL/logo-201305-b.png" alt="" width="170" height="60">
+            </a>
+            <b></b>
+        </div>
+        <a class="head-right" href="">
+            <b></b>登录页面，点差问卷
+        </a>
+    </div>
+    <div class="head">
+        <div class="head-box">
+            <div class="w">
+                <div class="dl">
+                    <div class="top"><a class="left-a" href="">扫码登录</a></div>
+                    <div class="top"><a class="right-a" href="">帐号登录</a></div>
+                    <div class="center">
+                        <div class="error">
+                            <div class="msg" style="display: none;">
+                                <b></b>请输入帐号与密码，帐号密码不能为空！
+                            </div>
+                            <div class="warn" style="display: none;">
+                                <b></b>公共场所不建议自动登录，以防账号丢失
+                            </div>
+                        </div>
+                        <div class="in">
+                            <from>
+                                <div class="login">
+                                    <ladel class="login-img"></ladel>
+                                    <input type="text" class="user" placeholder="用户名/邮箱/手机号">
+                                    <span class="clear-text"></span>
+                                </div>
+                                <div class="pwd">
+                                    <ladel class="pwd-img"></ladel>
+                                    <input type="password" class="pwd-in" placeholder="密码">
+                                    <span class="clear-text"></span>
+                                </div>
+                                <div class="itmt">
+                                    <input type="text" class="itmt-in">
+                                    <img class="code" src="" alt="">
+                                    <a href="">不清楚换一张</a>
+                                </div>
+                                <div class="itme">
+                                    <span>
+                      <input type="checkbox" class='checkbox'>
+                      <a href="">自动登录</a>
+                    </span>
+                                    <span class="wj">
+                      <a href="">忘记密码</a>
+                    </span>
+                                </div>
+                                <div class="form-five">
+                                    <div class="login-btn">
+                                        <a id="ok" href="javascript:;">登 &nbsp; &nbsp; 录</a>
+                                    </div>
+                                </div>
+                            </from>
+                        </div>
+                    </div>
+                    <div class="out">
+                        <ul>
+                            <li>
+                                <a href="" class="QQ">
+                                    <b></b>QQ
+                                </a>
+                                <span class="line">|</span>
+                            </li>
+                            <li>
+                                <a href="" class="QQ">
+                                    <b style="background-position: -20px 0;"></b>威信
+                                </a>
+                            </li>
+                            <li style="float: right;">
+                                <div class="new">
+                                    <a href="">
+                                        <b></b>立即注册
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="back" style="background-color: #950815">
+                <!-- <div class="w"> -->
+                <div class="backimg w"></div>
+                <!-- </div> -->
+            </div>
+        </div>
+    </div>
+    <div class="w">
+        <div class="beard">
+            <div>
+                <a href="">关于我们</a> | <a href="">联系我们</a> | <a href="">人才招聘</a> | <a href="">商家入驻</a> |
+                <a href="">广告服务</a> | <a href="">手机京东</a> | <a href="">友情链接</a> | <a href="">销售联盟</a> |
+                <a href="">京东社区</a> | <a href="">京东公益</a> | <a href="">English Site</a>
+            </div>
+            <div class="last">Copyright © 2004-2017 京东JD.com 版权所有</div>
+        </div>
+    </div>
+    <script src="../jQ/jquery-3.0.0.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $(".user").focus(function() {
+                $(".login-img").css("background-position", "0 -48px");
+                $(".msg").css("display", "none");
+            }).blur(function() {
+                $(".login-img").css("background-position", "0 0px");
+            });
+            $(".pwd-in").focus(function() {
+                $(".pwd-img").css("background-position", "-48px -48px");
+                $(".msg").css("display", "none");
+            }).blur(function() {
+                $(".pwd-img").css("background-position", "-48 0px");
+            });
+            $(".checkbox").click(function() {
+                if ($(".warn").is(":none")) {
+                    $(".warn").css("display", "block");
+                } else {
+                    $(".warn").css("display", "none");
+                }
+            });
+
+            $(".login-btn a").click(function() {
+                var user = $(".user").val();
+                var pwd = $(".pwd-in").val();
+
+                if (user != "" && pwd != "") {
+                    var xhr = new XMLHttpRequest();
+                    xhr.onreadystatechange = function() {
+                        if (xhr.readyState == 4) {
+                            if (xhr.status >= 200 && xhr.status < 300) {
+                                if (xhr.responseText == "OK") {
+                                    alert("OK");
+                                } else {
+                                    alert("Error");
+                                }
+                            } else {
+                                alert("服务器响应失败");
+                            }
+                        }
+                    };
+                    xhr.open("post", "./login.php", true);
+                    xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+                    var data = "name=" + user + "&passwd=" + pwd;
+                    xhr.send(data);
+                } else {
+                    $(".msg").removeAttr("style");
+                }
+            });
+
+        });
+    </script>
+</body>
+
+</html>

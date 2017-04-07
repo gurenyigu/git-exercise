@@ -1,0 +1,1456 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta name="baidu-site-verification" content="kyaXyvCYnO" />
+<meta name="sogou_site_verification" content="A7wGcBJVBX"/>
+<meta charset="utf-8">
+<title>菜鸟在线_移动互联网职业技能在线教育平台</title>
+<meta name="keywords" content="unity3d官网,Unity3d教程,Unity3d培训,HTML5教程,HTML5培训,HTML5全栈开发,游戏美术,游戏美术设计,游戏开发培训,菜鸟在线" />
+<meta name="description" content="菜鸟在线—中国移动互联网职业技能培训领导品牌,专注提供Unity3d、HTML5、3dmax、游戏美术、UI设计、游戏开发等教程资源。名师授课、在线学习、就业率高，值得信赖！" />
+<meta name="viewport" content="initial-scale=1, maximum-scale=3, minimum-scale=1, user-scalable=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+<link rel="stylesheet" media="screen" href="/assets/stylesheets/common.css">
+<link rel="stylesheet" media="screen" href="/assets/stylesheets/bbs.css">
+<link rel="stylesheet" media="screen" href="/assets/stylesheets/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="/assets/stylesheets/pay.css" />
+<link rel="shortcut icon" type="image/png" href="/assets/images/favicon.ico">
+<script src="/assets/javascripts/jquery-1.11.2.min.js"></script>
+<script src="/assets/javascripts/jquery.validate.js"></script>
+<script src="/assets/javascripts/jquery.login.js"></script>
+<script src="/assets/javascripts/regex.js"></script>
+<script src="/assets/javascripts/common.js"></script>
+<link rel="stylesheet" media="screen" href="/assets/stylesheets/index.css">
+<script>var _oztime = (new Date()).getTime();</script>
+</head>
+<body>
+<div class="index_header">
+<div class="header">
+<h1>
+<a href="/index" class="fl logo"><img src="/assets/images/logo.png" alt="菜鸟在线"></a>
+</h1>
+<div class="new_web_pic fl">
+<a href="/index.html" title="新版官网，点击进入"><img src="/assets/images/new_web.gif" alt="新版官网，点击进入"></a>
+</div>
+<div class="search_form fl clear_fix">
+<form id="search_form">
+<input type="text" name="condition" id="condition" placeholder="Unity3D , cocos2D , Html5">
+<a class="search_btn" id="search_btn" target="_blank" href="javascript:void;"><i class="fa fa-search"></i></a>
+<p class="clear_fix">
+<a target="_blank" href="/information_0_1.html">行业资讯</a>
+<a target="_blank" href="/course_0_1.html">在线课程</a>
+<a target="_blank" href="http://www.newbieol.com/recruit">高薪就业</a>
+<a target="_blank" href="/course_0_1.html">自学视频</a>
+<a target="_blank" href="http://bbs.newbieol.com">热门技术</a>
+</p>
+</form>
+</div>
+<div class="fr user_login">
+<input type="hidden" value="false" id="isLogin">
+<div class="fast_login clear_fix">
+<a href="javascript:;" class="login_btn">登录</a><em>|</em><a href="javascript:;" class="register_btn">注册</a>
+</div>
+<div class="third_login clear_fix">
+<a href="http://www.newbieol.com/qq_login" class="third_qq"><i class="fa fa-qq"></i></a>
+<a href="http://www.newbieol.com/wx_login" class="third_weixin"><i class="fa fa-weixin"></i></a>
+<a href="http://www.newbieol.com/xl_login" class="third_weibo"><i class="fa fa-weibo"></i></a>
+</div>
+<script> var isLogin=$("#isLogin" ).val(); var t1; if (isLogin=="true"){ getUnreadMessageCount(); t1 = window.setInterval(function(){getUnreadMessageCount()},30000); }
+    function getUnreadMessageCount(){ $.ajax ( { url : "/user/unreadMessage", async : false, type : "get", dataType : "json",
+        success : function ( data ) { if ( data.sta == -1){ $ ( ".newMessageCount" ).html(""); $ ( ".newMessageCount2" ).html("");
+        }else if(data != 0){ $ ( ".newMessageCount" ).html(data); $ ( ".newMessageCount2" ).html("( "+data+" )"); } } } ) ; } ; </script>
+</div>
+</div>
+<div class="header_classify">
+<ul>
+<li class="nav_top_index bGreen"><a href="javascript:;"><i class="fa fa-home"></i> 首页</a></li>
+<li>
+<a href="/course_1_1.html" target="_blank" class="clear_fix first_menu">
+Unity3D
+</a>
+<a href="/course_1_1.html" target="_blank" class="second_menu">编程语言</a>
+<a href="/course_1_1.html" target="_blank" class="second_menu">核心系统</a>
+<a href="/course_1_1.html" target="_blank" class="second_menu">虚拟现实</a>
+<a href="/course_1_1.html" target="_blank" class="second_menu">网络通信</a>
+<a href="/course_1_1.html" target="_blank" class="second_menu">用户界面</a>
+<a href="/course_1_1.html" target="_blank" class="second_menu">资源管理</a>
+<a href="/course_1_1.html" target="_blank" class="second_menu">3D图形学</a>
+<a href="/course_1_1.html" target="_blank" class="second_menu">数据交互</a>
+<a href="/course_1_1.html" target="_blank" class="second_menu">算法</a>
+</li>
+<li>
+<a href="/course_3_1.html" target="_blank" class="clear_fix first_menu">
+HTML5
+</a>
+<a href="/course_3_1.html" target="_blank" class="second_menu">编程语言</a>
+<a href="/course_3_1.html" target="_blank" class="second_menu">数据结构</a>
+<a href="/course_3_1.html" target="_blank" class="second_menu">开发工具</a>
+<a href="/course_3_1.html" target="_blank" class="second_menu">系统编程</a>
+<a href="/course_3_1.html" target="_blank" class="second_menu">Web 框架</a>
+<a href="/course_3_1.html" target="_blank" class="second_menu">数据库</a>
+</li>
+<li>
+<a href="/course_5_1.html" target="_blank" class="clear_fix first_menu">
+VR美术
+</a>
+<a href="/course_5_1.html" target="_blank" class="second_menu">MAX基础应用</a>
+<a href="/course_5_1.html" target="_blank" class="second_menu">PS基础应用</a>
+<a href="/course_5_1.html" target="_blank" class="second_menu">道具制作</a>
+<a href="/course_5_1.html" target="_blank" class="second_menu">ZB基础应用</a>
+<a href="/course_5_1.html" target="_blank" class="second_menu">角色建模</a>
+<a href="/course_5_1.html" target="_blank" class="second_menu">头部雕刻</a>
+<a href="/course_5_1.html" target="_blank" class="second_menu">场景制作</a>
+</li>
+</ul>
+</div>
+<div class="banner_nav">
+<ul class="top_nav clear_fix">
+<li>
+<a href="http://www.newbieol.com/course_0_1.html">在线课程</a> |
+<ul>
+<span></span>
+<li><a href="http://www.newbieol.com/course_0_1.html">知识点学习</a></li>
+<li><a href="http://www.newbieol.com/clazz">高级精品班</a></li>
+</ul>
+</li>
+<li><a href="http://www.newbieol.com/faceclazz">面授班</a> | </li>
+<li><a href="http://www.newbieol.com/information_0_1.html">行业资讯</a> | </li>
+<li><a href="http://www.newbieol.com/recruit">招聘</a> | </li>
+<li><a href="http://bbs.newbieol.com">社区</a></li>
+</ul>
+</div>
+<div class="top_picture">
+<div class="slider_pic">
+<ul class="index_banner">
+<li style="background: #ffd235 url(http://newbie2.oss-cn-beijing.aliyuncs.com/1478160393334.jpg) no-repeat center;" class="curr">
+<a target="_blank" href="http://www.newbieol.com/topic/KCTY/index.html"></a>
+</li> <li style="background: #650cc0 url(http://newbie2.oss-cn-beijing.aliyuncs.com/1478653993162.jpg) no-repeat center;">
+<a target="_blank" href="javascript:consult();"></a>
+</li> <li style="background: #ff3d3d url(http://newbie2.oss-cn-beijing.aliyuncs.com/1478756157443.jpg) no-repeat center;">
+<a target="_blank" href="http://www.newbieol.com/faceclazz"></a>
+</li> <li style="background: #48356a url(http://newbie2.oss-cn-beijing.aliyuncs.com/1476414776240.jpg) no-repeat center;">
+<a target="_blank" href="http://www.newbieol.com/topic/VR/index.html"></a>
+</li>
+</ul>
+<p class="pic_num"></p>
+</div>
+<div class="feature_box">
+<div class="feature feature1">
+<a href="http://www.newbieol.com/course_0_1.html">名师在线课程<br/><span>零基础、个性化学习</span></a>
+</div>
+<div class="feature feature2">
+<a href="http://www.newbieol.com/clazz">精品课程面对面<br/><span>先入学、保就业、再付款</span></a>
+</div>
+<div class="feature feature3">
+<a href="http://www.newbieol.com/recruit">热门招聘企业<br/><span>真实项目、指导就业</span></a>
+</div>
+</div>
+<div class="market_pic">
+<div class="market_list">
+<ul>
+<li><span><a href="http://www.newbieol.com/faceclazz" target="_blank">高薪就业班直通名企</a></span></li>
+<li><span><a href="http://www.newbieol.com/study_path_20.html" target="_blank">Unity3d免费精品课程</a></span></li>
+<li><span><a href="http://www.newbieol.com/study_path_21.html" target="_blank">HTML5免费精品课程</a></span></li>
+<li><span><a href="http://www.newbieol.com/information/1616.html" target="_blank">Unity03期学员顺利就业</a></span></li>
+<li><span><a href="http://www.newbieol.com/information/1618.html" target="_blank">菜鸟在线-广州分中心</a></span></li>
+<li><span><a href="http://www.newbieol.com/information/1617.html" target="_blank">菜鸟在线-内蒙古分中心</a></span></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="wid">
+<div class="course_con">
+<h3 class="clear_fix fn">
+<span class="fl">热门自学课程</span>
+<p class="fr">
+<a href="http://www.newbieol.com/course_0_1.html" target="_blank">更多</a>
+</p>
+</h3>
+<div class="course_inner index_course_list">
+<ul class="clear_fix">
+<li class="free_course">
+<a href="/course/index_66.html" class="pic" target="_blank">
+<img src="http://newbie2.oss-cn-beijing.aliyuncs.com/1460428955471.jpg" alt="HTML5全栈开发之CSS基础">
+</a>
+<div class="con">
+<h4 class="tit f14"><a href="/course/index_66.html" target="_blank">HTML5全栈开发之CSS基础</a></h4>
+<p class="con-txt pb5">HTML5全栈开发的CSS基础部分，在此可以学习到使用CSS...</p>
+<p class="priceNum f12">
+<span class="course_time"><i class="fa fa-clock-o"></i> 5课时 68分钟</span>
+<span class="old_price">￥500</span>
+</p>
+</div>
+<p class="free_ico bGreen cWhite">限时免费</p>
+</li>
+<li class="free_course">
+<a href="/course/index_88.html" class="pic" target="_blank">
+<img src="http://newbie2.oss-cn-beijing.aliyuncs.com/1462419458827.jpg" alt="设计模式之有限状态机">
+</a>
+<div class="con">
+<h4 class="tit f14"><a href="/course/index_88.html" target="_blank">设计模式之有限状态机</a></h4>
+<p class="con-txt pb5">设计模式之有限状态机</p>
+<p class="priceNum f12">
+<span class="course_time"><i class="fa fa-clock-o"></i> 5课时 134分钟</span>
+<span class="old_price">￥500</span>
+</p>
+</div>
+<p class="free_ico bGreen cWhite">限时免费</p>
+</li>
+<li class="free_course">
+<a href="/course/index_91.html" class="pic" target="_blank">
+<img src="http://newbie2.oss-cn-beijing.aliyuncs.com/1463033492175.jpg" alt="Linux软件包管理及服务配置">
+</a>
+<div class="con">
+<h4 class="tit f14"><a href="/course/index_91.html" target="_blank">Linux软件包管理及服务配置</a></h4>
+<p class="con-txt pb5">Linux系统使用的部分讲解，内容是软件包的管理和服务配置方...</p>
+<p class="priceNum f12">
+<span class="course_time"><i class="fa fa-clock-o"></i> 4课时 71分钟</span>
+<span class="old_price">￥500</span>
+</p>
+</div>
+<p class="free_ico bGreen cWhite">限时免费</p>
+</li>
+<li class="free_course">
+<a href="/course/index_102.html" class="pic" target="_blank">
+<img src="http://newbie2.oss-cn-beijing.aliyuncs.com/1463471332687.jpg" alt="Git源码管理工具使用">
+</a>
+<div class="con">
+<h4 class="tit f14"><a href="/course/index_102.html" target="_blank">Git源码管理工具使用</a></h4>
+<p class="con-txt pb5">使用Git进行源码管理的方法</p>
+<p class="priceNum f12">
+<span class="course_time"><i class="fa fa-clock-o"></i> 7课时 96分钟</span>
+<span class="old_price">￥300</span>
+</p>
+</div>
+<p class="free_ico bGreen cWhite">限时免费</p>
+</li>
+<li class="free_course">
+<a href="/course/index_80.html" class="pic" target="_blank">
+<img src="http://newbie2.oss-cn-beijing.aliyuncs.com/1461900427040.jpg" alt="构建H5开发环境基于linux">
+</a>
+<div class="con">
+<h4 class="tit f14"><a href="/course/index_80.html" target="_blank">构建H5开发环境基于linux</a></h4>
+<p class="con-txt pb5">构建H5开发环境基于linux</p>
+<p class="priceNum f12">
+<span class="course_time"><i class="fa fa-clock-o"></i> 8课时 160分钟</span>
+<span class="old_price">￥300</span>
+</p>
+</div>
+<p class="free_ico bGreen cWhite">限时免费</p>
+</li>
+<li class="free_course">
+<a href="/course/index_61.html" class="pic" target="_blank">
+<img src="http://newbie2.oss-cn-beijing.aliyuncs.com/1460427583590.jpg" alt=" 3D古装人物制作">
+</a>
+<div class="con">
+<h4 class="tit f14"><a href="/course/index_61.html" target="_blank"> 3D古装人物制作</a></h4>
+<p class="con-txt pb5">本教程从3dmax建模、3dmax造型、3dmax视图等方面...</p>
+<p class="priceNum f12">
+<span class="course_time"><i class="fa fa-clock-o"></i> 7课时 190分钟</span>
+<span class="old_price">￥500</span>
+</p>
+</div>
+<p class="free_ico bGreen cWhite">限时免费</p>
+</li>
+<li class="free_course">
+<a href="/course/index_81.html" class="pic" target="_blank">
+<img src="http://newbie2.oss-cn-beijing.aliyuncs.com/1462331060558.jpg" alt="Unity3D案例--雷霆战机">
+</a>
+<div class="con">
+<h4 class="tit f14"><a href="/course/index_81.html" target="_blank">Unity3D案例--雷霆战机</a></h4>
+<p class="con-txt pb5">雷霆大战</p>
+<p class="priceNum f12">
+<span class="course_time"><i class="fa fa-clock-o"></i> 2课时 31分钟</span>
+<span class="old_price">￥500</span>
+</p>
+</div>
+<p class="free_ico bGreen cWhite">限时免费</p>
+</li>
+<li class="free_course">
+<a href="/course/index_103.html" class="pic" target="_blank">
+<img src="http://newbie2.oss-cn-beijing.aliyuncs.com/1463623031255.jpg" alt="3D美术-Zbrush人物雕刻">
+</a>
+<div class="con">
+<h4 class="tit f14"><a href="/course/index_103.html" target="_blank">3D美术-Zbrush人物雕刻</a></h4>
+<p class="con-txt pb5">3D美术系列课程，使用Zbrush进行人物雕刻</p>
+<p class="priceNum f12">
+<span class="course_time"><i class="fa fa-clock-o"></i> 4课时 85分钟</span>
+<span class="old_price">￥500</span>
+</p>
+</div>
+<p class="free_ico bGreen cWhite">限时免费</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="trade_info clear_fix">
+<div class="trade_main fl">
+<div class="trade_list">
+<h4 class="f14"><a target="_blank" href="/information_1_1.html">行业资讯</a> <a target="_blank" href="/information_1_1.html" class="more_link">更多</a></h4>
+<div class="trade_pic">
+<div class="trade_left_main fl">
+<a target="_blank" href="/information/2445.html"><img src="http://newbie2.oss-cn-beijing.aliyuncs.com/1478837495197.jpg" alt="VR教育会发展成怎样的未来?"></a>
+<h5><a target="_blank" href="/information/2445.html">
+VR教育会发展成怎样的未来?
+</a></h5>
+<p>
+从PC电脑到移动互联，最后到VR/AR，越来越便捷，越来越...
+</p>
+</div>
+<ul>
+<li class="index_trade_list">
+<a href="/information_12_1.html" target="_blank" class="classify"><span>[虚拟现实]</span></a>
+<a href="/information/2440.html" target="_blank" class="name">VR购物，不可错过的购物新方式</a>
+</li>
+<li class="index_trade_list">
+<a href="/information_12_1.html" target="_blank" class="classify"><span>[虚拟现实]</span></a>
+<a href="/information/2429.html" target="_blank" class="name">虚拟现实市场解读： 2019出现消费级AR眼镜</a>
+</li>
+<li class="index_trade_list">
+<a href="/information_15_1.html" target="_blank" class="classify"><span>[游戏开发]</span></a>
+<a href="/information/2406.html" target="_blank" class="name">Riot设计师：为什么要花三年做一款LOL桌游?</a>
+</li>
+<li class="index_trade_list">
+<a href="/information_12_1.html" target="_blank" class="classify"><span>[虚拟现实]</span></a>
+<a href="/information/2374.html" target="_blank" class="name">VR新用途，你都知道吗?</a>
+</li>
+<li class="index_trade_list">
+<a href="/information_10_1.html" target="_blank" class="classify"><span>[Unity3D开发]</span></a>
+<a href="/information/2342.html" target="_blank" class="name">Unity3D开发的游戏齐发上线</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="trade_even trade_list">
+<h4 class="f14"><a target="_blank" href="/information_2_1.html">行业分析</a> <a target="_blank" href="/information_2_1.html" class="more_link">更多</a></h4>
+<div class="trade_pic">
+<div class="trade_left_main fl">
+<a target="_blank" href="/information/2407.html"><img src="http://newbie2.oss-cn-beijing.aliyuncs.com/1478222606167.jpg" alt="学完Unity3d培训后你能做什么?"></a>
+<h5><a target="_blank" href="/information/2407.html">
+学完Unity3d培训后你能做什...
+</a></h5>
+<p>
+当我们在Unity3d培训略有小成时，就要准备步入工作了。...
+</p>
+</div>
+<ul>
+<li class="index_trade_list">
+<a href="/information_18_1.html" target="_blank" class="classify"><span>[HTML5前端]</span></a>
+<a href="/information/2384.html" target="_blank" class="name">HTML5培训有前途吗?</a>
+</li>
+<li class="index_trade_list">
+<a href="/information_22_1.html" target="_blank" class="classify"><span>[游戏开发编程]</span></a>
+<a href="/information/2363.html" target="_blank" class="name">手机游戏开发新理念，抓住超级用户</a>
+</li>
+<li class="index_trade_list">
+<a href="/information_18_1.html" target="_blank" class="classify"><span>[HTML5前端]</span></a>
+<a href="/information/2361.html" target="_blank" class="name">HTML5培训对移动互联网的重要性</a>
+</li>
+<li class="index_trade_list">
+<a href="/information_22_1.html" target="_blank" class="classify"><span>[游戏开发编程]</span></a>
+<a href="/information/2359.html" target="_blank" class="name">边玩边学，这样的游戏开发你喜欢吗?</a>
+</li>
+<li class="index_trade_list">
+<a href="/information_18_1.html" target="_blank" class="classify"><span>[HTML5前端]</span></a>
+<a href="/information/2345.html" target="_blank" class="name">HTML5全栈开发为什么如此受欢迎</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="trade_list">
+<h4 class="f14"><a target="_blank" href="/information_3_1.html">游戏行情</a> <a target="_blank" href="/information_3_1.html" class="more_link">更多</a></h4>
+<div class="trade_pic">
+<div class="trade_left_main fl">
+<a target="_blank" href="/information/2401.html"><img src="http://newbie2.oss-cn-beijing.aliyuncs.com/1478144020903.jpg" alt="TGC游戏开发新作公布 将登陆多个平台"></a>
+<h5><a target="_blank" href="/information/2401.html">
+TGC游戏开发新作公布 将登陆多...
+</a></h5>
+<p>
+知名游戏开发商TGC创始人陈星汉又在公司官方发布了新作的最...
+</p>
+</div>
+<ul>
+<li class="index_trade_list">
+<a href="/information_24_1.html" target="_blank" class="classify"><span>[手机游戏开发]</span></a>
+<a href="/information/2399.html" target="_blank" class="name">可以学习的游戏开发产品你喜欢吗?</a>
+</li>
+<li class="index_trade_list">
+<a href="/information_24_1.html" target="_blank" class="classify"><span>[手机游戏开发]</span></a>
+<a href="/information/2275.html" target="_blank" class="name">做游戏软件开发需要会多少种语言</a>
+</li>
+<li class="index_trade_list">
+<a href="/information_24_1.html" target="_blank" class="classify"><span>[手机游戏开发]</span></a>
+<a href="/information/2274.html" target="_blank" class="name">哪种类型手机游戏软件开发更受国民欢迎?</a>
+</li>
+<li class="index_trade_list">
+<a href="/information_24_1.html" target="_blank" class="classify"><span>[手机游戏开发]</span></a>
+<a href="/information/2234.html" target="_blank" class="name">我国游戏软件开发市场规模达1500亿</a>
+</li>
+<li class="index_trade_list">
+<a href="/information_27_1.html" target="_blank" class="classify"><span>[虚拟现实游戏]</span></a>
+<a href="/information/2232.html" target="_blank" class="name">游戏软件开发如今已成为流行的行业</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="trade_even trade_list">
+<h4 class="f14"><a target="_blank" href="/information_4_1.html">编程人生</a> <a target="_blank" href="/information_4_1.html" class="more_link">更多</a></h4>
+<div class="trade_pic">
+<div class="trade_left_main fl">
+<a target="_blank" href="/information/2428.html"><img src="http://newbie2.oss-cn-beijing.aliyuncs.com/1478581807606.jpg" alt="Unity3d培训中U3d开发工程师的职能简介！"></a>
+<h5><a target="_blank" href="/information/2428.html">
+Unity3d培训中U3d开发工...
+</a></h5>
+<p>
+当我们在Unity3d培训略有小成时，就要准备步入工作了。...
+</p>
+</div>
+<ul>
+<li class="index_trade_list">
+<a href="/information_28_1.html" target="_blank" class="classify"><span>[编程开发故事]</span></a>
+<a href="/information/2202.html" target="_blank" class="name">你一定不知道年过40的程序员有多厉害!</a>
+</li>
+<li class="index_trade_list">
+<a href="/information_29_1.html" target="_blank" class="classify"><span>[编程开发感悟]</span></a>
+<a href="/information/2089.html" target="_blank" class="name">你知道为什么Unity3d培训如此受欢迎吗?</a>
+</li>
+<li class="index_trade_list">
+<a href="/information_28_1.html" target="_blank" class="classify"><span>[编程开发故事]</span></a>
+<a href="/information/2004.html" target="_blank" class="name">菜鸟在线带你演绎“微微一笑很倾城”的人生</a>
+</li>
+<li class="index_trade_list">
+<a href="/information_29_1.html" target="_blank" class="classify"><span>[编程开发感悟]</span></a>
+<a href="/information/1868.html" target="_blank" class="name">怎样成为一名合格的游戏美术设计师</a>
+</li>
+<li class="index_trade_list">
+<a href="/information_29_1.html" target="_blank" class="classify"><span>[编程开发感悟]</span></a>
+<a href="/information/1831.html" target="_blank" class="name">HTML5教程：H5让你的开发具有成就感</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="trade_list">
+<h4 class="f14"><a target="_blank" href="/information_5_1.html">就业指导</a> <a target="_blank" href="/information_5_1.html" class="more_link">更多</a></h4>
+<div class="trade_pic">
+<div class="trade_left_main fl">
+<a target="_blank" href="/information/2400.html"><img src="http://newbie2.oss-cn-beijing.aliyuncs.com/1478059591042.jpg" alt="Unity3d培训中U3d开发工程师的职能简介！"></a>
+<h5><a target="_blank" href="/information/2400.html">
+Unity3d培训中U3d开发工...
+</a></h5>
+<p>
+当我们在Unity3d培训略有小成时，就要准备步入工作了。...
+</p>
+</div>
+<ul>
+<li class="index_trade_list">
+<a href="/information_50_1.html" target="_blank" class="classify"><span>[企业期望]</span></a>
+<a href="/information/2286.html" target="_blank" class="name">想要始终专注于手机游戏开发，看看这三条建议</a>
+</li>
+<li class="index_trade_list">
+<a href="/information_31_1.html" target="_blank" class="classify"><span>[技能指导]</span></a>
+<a href="/information/2277.html" target="_blank" class="name">游戏软件开发人员成功就业所需要的素质有哪些?</a>
+</li>
+<li class="index_trade_list">
+<a href="/information_31_1.html" target="_blank" class="classify"><span>[技能指导]</span></a>
+<a href="/information/2260.html" target="_blank" class="name">什么是游戏开发培训?</a>
+</li>
+<li class="index_trade_list">
+<a href="/information_50_1.html" target="_blank" class="classify"><span>[企业期望]</span></a>
+<a href="/information/2231.html" target="_blank" class="name">怎样成为一名优秀的游戏美术设计师</a>
+</li>
+<li class="index_trade_list">
+<a href="/information_30_1.html" target="_blank" class="classify"><span>[就业行情]</span></a>
+<a href="/information/2228.html" target="_blank" class="name">为什么HTML5教程是最适合移动端开发的？</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="trade_even trade_list">
+<h4 class="f14"><a target="_blank" href="/information_6_1.html">学员帮助</a> <a target="_blank" href="/information_6_1.html" class="more_link">更多</a></h4>
+<div class="trade_pic">
+<div class="trade_left_main fl">
+<a target="_blank" href="/information/2411.html"><img src="http://newbie2.oss-cn-beijing.aliyuncs.com/1478239589580.jpg" alt="如何恰使用HTML5培训中的样式"></a>
+<h5><a target="_blank" href="/information/2411.html">
+如何恰使用HTML5培训中的样式
+</a></h5>
+<p>
+我们在HTML5中，常常会遇到一些不知道该如何使用的样式及...
+</p>
+</div>
+<ul>
+<li class="index_trade_list">
+<a href="/information_34_1.html" target="_blank" class="classify"><span>[开发基础]</span></a>
+<a href="/information/2336.html" target="_blank" class="name">游戏开发培训中的音效详解</a>
+</li>
+<li class="index_trade_list">
+<a href="/information_34_1.html" target="_blank" class="classify"><span>[开发基础]</span></a>
+<a href="/information/2334.html" target="_blank" class="name">Unity3d培训中的渐隐特效使用方法</a>
+</li>
+<li class="index_trade_list">
+<a href="/information_34_1.html" target="_blank" class="classify"><span>[开发基础]</span></a>
+<a href="/information/2333.html" target="_blank" class="name">Unity3d培训中C++类应用详解</a>
+</li>
+<li class="index_trade_list">
+<a href="/information_34_1.html" target="_blank" class="classify"><span>[开发基础]</span></a>
+<a href="/information/2308.html" target="_blank" class="name">关于游戏优化的一些Unity3d教程</a>
+</li>
+<li class="index_trade_list">
+<a href="/information_34_1.html" target="_blank" class="classify"><span>[开发基础]</span></a>
+<a href="/information/2301.html" target="_blank" class="name">设计一个角色都需要哪些游戏美术步骤</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="trade_list">
+<h4 class="f14"><a target="_blank" href="/information_7_1.html">常见问题</a> <a target="_blank" href="/information_7_1.html" class="more_link">更多</a></h4>
+<div class="trade_pic">
+<div class="trade_left_main fl">
+<a target="_blank" href="/information/2427.html"><img src="http://newbie2.oss-cn-beijing.aliyuncs.com/1478576643298.jpg" alt="怎样在Unity3d培训中创造新的对象"></a>
+<h5><a target="_blank" href="/information/2427.html">
+怎样在Unity3d培训中创造新...
+</a></h5>
+<p>
+我们在Unity3d培训中都会去创建一个对象。而创建对象的...
+</p>
+</div>
+<ul>
+<li class="index_trade_list">
+<a href="/information_35_1.html" target="_blank" class="classify"><span>[Unity3d培训]</span></a>
+<a href="/information/2425.html" target="_blank" class="name">Unity3d培训中创建Spite动态精灵的步骤</a>
+</li>
+<li class="index_trade_list">
+<a href="/information_35_1.html" target="_blank" class="classify"><span>[Unity3d培训]</span></a>
+<a href="/information/2423.html" target="_blank" class="name">Xml的一些Unity3d教程</a>
+</li>
+<li class="index_trade_list">
+<a href="/information_35_1.html" target="_blank" class="classify"><span>[Unity3d培训]</span></a>
+<a href="/information/2422.html" target="_blank" class="name">Unity3d教程：U3d中的Package你了解多少?</a>
+</li>
+<li class="index_trade_list">
+<a href="/information_37_1.html" target="_blank" class="classify"><span>[HTML5培训]</span></a>
+<a href="/information/2421.html" target="_blank" class="name">HTML5培训中图片装载效果的实现</a>
+</li>
+<li class="index_trade_list">
+<a href="/information_36_1.html" target="_blank" class="classify"><span>[游戏美术设计]</span></a>
+<a href="/information/2419.html" target="_blank" class="name">游戏美术设计中css3的一些新属性简介</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="trade_even trade_list">
+<h4 class="f14"><a target="_blank" href="/information_9_1.html">学习分享</a> <a target="_blank" href="/information_9_1.html" class="more_link">更多</a></h4>
+<div class="trade_pic">
+<div class="trade_left_main fl">
+<a target="_blank" href="/information/2450.html"><img src="http://newbie2.oss-cn-beijing.aliyuncs.com/1479103475144.jpg" alt="HTML5教程：离线访问"></a>
+<h5><a target="_blank" href="/information/2450.html">
+HTML5教程：离线访问
+</a></h5>
+<p>
+你知道什么是HTML5离线访问吗?知道这个操作是怎么实现的...
+</p>
+</div>
+<ul>
+<li class="index_trade_list">
+<a href="/information_45_1.html" target="_blank" class="classify"><span>[HTML5教程]</span></a>
+<a href="/information/2449.html" target="_blank" class="name">HTML5教程：拖拽效果的实现</a>
+</li>
+<li class="index_trade_list">
+<a href="/information_43_1.html" target="_blank" class="classify"><span>[Unity3D教程]</span></a>
+<a href="/information/2448.html" target="_blank" class="name">Unity3d教程：纹理扩散</a>
+</li>
+<li class="index_trade_list">
+<a href="/information_43_1.html" target="_blank" class="classify"><span>[Unity3D教程]</span></a>
+<a href="/information/2447.html" target="_blank" class="name">如何用Unity3d技术设计出按钮来控制游戏物件的开启及关闭</a>
+</li>
+<li class="index_trade_list">
+<a href="/information_45_1.html" target="_blank" class="classify"><span>[HTML5教程]</span></a>
+<a href="/information/2446.html" target="_blank" class="name">HTML5教程：应用缓存机制</a>
+</li>
+<li class="index_trade_list">
+<a href="/information_43_1.html" target="_blank" class="classify"><span>[Unity3D教程]</span></a>
+<a href="/information/2444.html" target="_blank" class="name">Unity3D教程：自动门效果设计(下篇)</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="employ_con">
+<h3 class="clear_fix fn">
+<span class="fl">700家就业合作企业</span>
+</h3>
+<img src="/assets/images/logo_big.jpg" alt="">
+</div>
+<div class="friend_link">
+<h3 class="clear_fix fn">
+<span class="fl">友情链接</span>
+<a href="tencent://message/?uin=1785505098&Site=www.newbieol.com&Menu=yes" class="qq_link">qq联系</a>
+</h3>
+<ul class="clear_fix">
+<li><a href="http://bbs.mobiletrain.org" target="_blank">千锋论坛</a></li> <li><a href="http://www.shandaz.com/" target="_blank">山东大学在职研究生</a></li> <li><a href="http://www.langlangjiajiao.com/" target="_blank">上海家教网</a></li> <li><a href="http://qd.jiaoyubao.cn/" target="_blank">青岛培训学校</a></li> <li><a href="http://www.siyuejy.cn/" target="_blank">注意力训练</a></li> <li><a href="http://www.aseoe.com/" target="_blank">Web前端开发</a></li> <li><a href="http://www.5goto.com/" target="_blank">山东技校网</a></li> <li><a href="http://www.17cma.com/ " target="_blank">CMA培训</a></li> <li><a href="http://www.eduigo.com/" target="_blank">学信网登录</a></li> <li><a href="http://usabk.bailitop.com/ " target="_blank">美国本科留学</a></li> <li><a href="http://mba.zzyjs.com/" target="_blank">mba报考条件</a></li> <li><a href="http://www.21ks.net/jykx/" target="_blank">教育期刊</a></li> <li><a href="http://tj.jiajiao114.com/" target="_blank">天津家教</a></li> <li><a href="http://www.baywatch.cn/jiaoyulunwen/" target="_blank">中文期刊网</a></li> <li><a href="http://web.tedu.cn/ " target="_blank">web开发培训 </a></li> <li><a href="http://www.bwie.com/" target="_blank">北京八维教育</a></li> <li><a href="http://www.zhazhi.com/qikan/" target="_blank">学术期刊</a></li> <li><a href="http://www.520it.com/" target="_blank">java培训 </a></li> <li><a href="http://www.bwie.com" target="_blank">北京IT教育培训</a></li> <li><a href="http://www.520it.com/" target="_blank">C++培训 </a></li> <li><a href="http://www.mbaschool.com.cn/" target="_blank">MBA考试</a></li> <li><a href="http://www.embedu.org/news/" target="_blank">嵌入式系统</a></li> <li><a href="http://www.codingke.com/ " target="_blank">ios培训</a></li> <li><a href="http://www.ceo315.org/" target="_blank">清华大学培训</a></li> <li><a href="http://shanghai.101jiajiao.com/" target="_blank">上海家教</a></li> <li><a href="http://www.lanou3g.com/" target="_blank">Web安全培训</a></li>
+</ul>
+</div>
+<div class="go_login tc pb50">
+<h3 class="tc fn cWhite">现在开始，免费学习游戏设计与开发</h3>
+<a href="/register_page">抢注名额</a>
+</div>
+</div>
+<div class="footer ">
+<p class="tc">
+<a href="http://www.newbieol.com/footer/help-aboutUs.html" rel="nofollow">关于我们</a>丨
+<a href="http://www.newbieol.com/footer/help-contactUs.html" rel="nofollow">联系我们</a>丨
+<a href="http://www.newbieol.com/footer/help-addUs.html" rel="nofollow">加入我们</a>丨
+<a href="http://www.newbieol.com/footer/help-buy.html" rel="nofollow">购买帮助</a>丨
+<a href="http://www.newbieol.com/footer/help-agreement.html" rel="nofollow">网站协议</a>丨
+<a href="http://www.newbieol.com/footer/help-legalNotices.html" rel="nofollow">法律声明</a> |
+<a href="http://www.newbieol.com/footer/help-webmap.html" rel="nofollow">网站地图</a>
+</p>
+<p class="tc"><span>Copyright © 2014-2015</span><span>北京菜鸟在线教育科技有限公司</span><span><a href="http://www.newbieol.com">www.newbieol.com</a> All Rights Reversed</span><span>京ICP备14039669号-3</span></p>
+</div>
+<div class="pop_up_window" id="login_window">
+<a href="javascript:;" class="close_window"><i class="fa fa-times"></i></a>
+<h3>登录</h3>
+<span class="form_error bRed cWhite"></span>
+<div class="form_con">
+<form action="#" method="post" id="login_dialog_form">
+<input type="text" name="userName" class="tc_txt" placeholder="邮箱/手机号/用户名">
+<input type="password" name="userPassword" class="tc_txt" placeholder="密码">
+<a type="button" id="login_dialog" class="bGreen2 cWhite form_btn">登录</a>
+<p class="clear_fix login_tip">
+<a href="javascript:;" class="fl remember_me"><i class="fa fa-square-o"></i> 记住我</a>
+<a href="/password/find_password" class="fr cGreen pl10">忘记密码</a>
+<span class="fr">没有账号？<a href="javascript:;" class="cGreen register_btn">去注册</a></span>
+</p>
+</form>
+</div>
+<div class="third_login clear_fix">
+<a href="http://www.newbieol.com/xl_login" class="login_weibo fl"><i class="fa fa-weibo cbGray"></i></a>
+<a href="http://www.newbieol.com/qq_login" class="login_qq fl"><i class="fa fa-qq cbGray"></i></a>
+<a href="http://www.newbieol.com/wx_login" class="login_weixin fl"><i class="fa fa-weixin cbGray"></i></a>
+</div>
+</div>
+<div class="shade_box"></div>
+<div class="pop_up_window tabContents" id="register_window">
+<a href="javascript:;" class="close_window"><i class="fa fa-times"></i></a>
+<div class="pop_up_title clear_fix reg_tabs">
+<a href="javascript:;" class="curr">手机号注册</a>
+<a href="javascript:;">邮箱注册</a>
+</div>
+<span class="form_error bRed cWhite"></span>
+<div class="form_con tabsCon">
+<form action="#" id="reg_phone_dialog_form" method="post">
+<input type="text" name="userPhone" class="tc_txt" placeholder="手机号">
+<div class="get_vcode clear_fix">
+<input type="text" name="userCode" class="tc_stxt">
+<span><i id="countDown"></i> s后重新发送</span>
+<a href="javascript:;" class="bGray2 cWhite get_vcode_btn">获取验证码</a>
+</div>
+<input type="text" name="userName" class="tc_txt" placeholder="用户名">
+<input type="password" name="userPassword" class="tc_txt" placeholder="密码">
+<input type="password" name="userPassword2" class="tc_txt" placeholder="确认密码">
+<a type="button" id="reg_phone_dialog" class="bGreen2 cWhite form_btn">注册</a>
+<p class="login_tip tc">
+<span>已有账号？<a href="javascript:;" class="cGreen login_btn">去登录</a></span>
+</p>
+</form>
+</div>
+<div class="form_con tabsCon" style="display: none;">
+<form action="#" id="reg_email_dialog_form">
+<input type="text" name="userEmail" class="tc_txt" placeholder="邮箱">
+<input type="text" name="userName" class="tc_txt" placeholder="用户名">
+<input type="password" name="userPassword" class="tc_txt" placeholder="密码">
+<input type="password" name="userPassword2" class="tc_txt" placeholder="确认密码">
+<input type="hidden" name="vcode" id="vcode">
+<a type="button" id="reg_email_dialog" class="bGreen2 cWhite form_btn">注册</a>
+<p class="login_tip tc">
+<span>已有账号？<a href="javascript:;" class="cGreen login_btn">去登录</a></span>
+</p>
+</form>
+</div>
+<div class="third_login clear_fix">
+<a href="http://www.newbieol.com/xl_login" class="login_weibo fl"><i class="fa fa-weibo cbGray"></i></a>
+<a href="http://www.newbieol.com/qq_login" class="login_qq fl"><i class="fa fa-qq cbGray"></i></a>
+<a href="http://www.newbieol.com/wx_login" class="login_weixin fl"><i class="fa fa-weixin cbGray"></i></a>
+</div>
+</div>
+<div class="shade_box"></div>
+<div class="process_resume_window outline_service_window sm_resume_window register_pop_code" id="verificationWindow">
+<div class="window_con">
+<h3><span class="fl">验证码确认</span><a href="javascript:;" class="fr close_resume_window"><i class="fa fa-times"></i></a></h3>
+<div class="process_resume_con">
+<p class="vcode_sure clear_fix">
+<img id="codeImg" src="/captcha" alt="" class="fl">
+<input type="text" placeholder="请输入验证码" class="fl" id="captCode">
+</p>
+<p class="vcode_error cRed pl30" id="errorMsg" style="display: none;">
+<i class="fa fa-times-circle"></i>
+</p>
+<p class="tc pb20">
+<a href="javascript:;" class="btn mBtn bGrayBtn cWhite cancle_btn mr20" id="cancelBtn">取消</a>
+<a href="javascript:;" class="btn mBtn bGreen cWhite " id="verificationBtn">确定</a>
+<a href="javascript:;" class="btn mBtn bGreen cWhite " id="verificationBtn2" style="display: none;">确定</a>
+</p>
+</div>
+</div>
+</div>
+<script>
+    $(function(){
+        $ ("#codeImg").click(function (){
+            $(this).attr("src","/captcha?date"+new Date( ).getTime());
+        });
+        $(".close_resume_window" ).click(function(){
+            $("#verificationWindow" ).hide();
+        });
+        $("#cancelBtn" ).click(function(){
+            $("#verificationWindow" ).hide();
+        });
+        $("#verificationBtn" ).click(function(){
+            var phone = d.r.ele.phone.val ( ) ;
+            var code=$("#captCode" ).val();
+
+            if(code==null || code==""){
+                $("#errorMsg" ).html("<i class='fa fa-times-circle'></i>请输入验证码").show();
+                return;
+            }
+            d.c.getCode ( phone , code) ;
+            
+        });
+        $("#verificationBtn2" ).click(function(){
+            var code=$("#captCode" ).val();
+            if(code==null || code==""){
+                $("#errorMsg" ).html("<i class='fa fa-times-circle'></i>请输入验证码").show();
+                return;
+            }
+            $.ajax({
+                url:"/code_verification/"+code,
+                type:"get",
+                success:function(data){
+                    if(data=="0"){
+                        $("#errorMsg" ).html("<i class='fa fa-times-circle'></i>请输入验证码").show();
+                    }
+                    if(data=="-1"){
+                        $("#errorMsg" ).html("<i class='fa fa-times-circle'></i>验证码错误").show();
+                        $("#codeImg").click();
+                    }
+                    if(data=="1"){
+                        $("#errorMsg" ).hide();
+                        $(".form_error" ).hide();
+                        $("#vcode" ).val(code);
+                        $("#verificationWindow" ).hide();
+                    }
+                }
+            });
+        });
+    })
+</script>
+<div class="draw_black"></div>
+<script type="text/javascript">
+    var d = {//dialog
+        var:{
+          countDown:60,
+          can:true,
+          can_code:true,
+          rm:false
+        },
+        route:{
+            login:"/fast_login",
+            email_reg:"/fast_email_reg",
+            phone_reg:"/fast_phone_reg"
+        },
+        l:{//login
+            s:{//selector
+                login:"#login_dialog",
+                form:"#login_dialog_form",
+                error:"#login_window .form_error",
+                name:"input[name='userName']",
+                pwd:"input[name='userPassword']",
+                rm:".remember_me"
+            },
+            ele:{
+                name:null,
+                pwd:null
+            }
+        },
+        r:{//register
+            s:{//seletor
+                e_form:"#reg_email_dialog_form",
+                error:"#register_window .form_error",
+                email:"input[name='userEmail']",
+                name:"input[name='userName']",
+                pwd:"input[name='userPassword']",
+                pwd2:"input[name='userPassword2']",
+                e_regist:"#reg_email_dialog",
+                p_regist:"#reg_phone_dialog",
+                p_form:"#reg_phone_dialog_form",
+                phone:"input[name='userPhone']",
+                code:"input[name='userCode']",
+                countDown:"#countDown"
+            },
+            ele:{
+                phone:null,
+                email:null,
+                code:null,
+                e_name:null,
+                e_pwd:null,
+                e_pwd2:null,
+                p_name:null,
+                p_pwd:null,
+                p_pwd2:null
+            }
+        },
+        c:{
+            isUnique:function (key,value){
+                var sta = null;
+                    $.ajax({
+                        url:"/regist/unique/"+key+"/"+value,
+                        type:"get",
+                        async:false,
+                        success:function(result){
+                            sta = result.sta == 1;
+                        }
+                    });
+                return sta;
+            },
+            getCode:function(phone,code){
+                if( !d.var.can_code ) return ;
+                d.var.can_code = false;
+                $.ajax({
+                    url:"/regist/get_code/"+phone+"/"+code,
+                    type:"get",
+                    success:function(result){
+                        d.var.can_code = true ;
+                        d.reminder(d.r.s.error, result.msg);
+                        $("#errorMsg" ).html("<i class='fa fa-times-circle'></i>"+result.msg).show();
+                        if(result.sta==1){
+                            $("#verificationWindow" ).hide();
+                            $("#errorMsg" ).hide();
+                            $(".get_vcode_btn").hide();
+                            $(".get_vcode_btn").siblings('span').show();
+                            $(".get_vcode_btn").siblings('.tc_stxt').show();
+                            d.v.var.intervalId = window.setInterval(d.v.countDown,1000,this);
+                        }else{
+                            $("#codeImg").click();
+                        }
+                    }
+                });
+            }
+        },
+        v:{
+            var:{
+              intervalId:null
+            },
+            countDown:function(ele){
+                var down = $( d.r.s.countDown );
+                var second = parseInt(down.html());
+                down.html(second - 1);
+                if(second == 0){
+                    window.clearInterval(d.v.var.intervalId);
+                    $(ele).show();
+                    $(ele).siblings('span').hide();
+                    jQuery.style(ele,"margin-left","165px");
+                    jQuery.style(ele,"float","none");
+                    down.html( d.var.countDown);
+                }
+            }
+        },
+        reminder:function(ele, msg){
+            $(ele).animate({height:'45px'}, 100, function(){$(this ).html(msg);}).show();
+        },
+        bindEle:function(){
+            //注册
+            d.r.ele.phone = $( d.r.s.p_form ).find( d.r.s.phone );
+            d.r.ele.code = $(d.r.s.p_form).find(d.r.s.code);
+            d.r.ele.p_name = $(d.r.s.p_form).find(d.r.s.name);
+            d.r.ele.p_pwd = $(d.r.s.p_form).find(d.r.s.pwd);
+            d.r.ele.p_pwd2 = $(d.r.s.p_form).find(d.r.s.pwd2);
+            d.r.ele.email = $(d.r.s.e_form).find(d.r.s.email);
+            d.r.ele.e_name = $(d.r.s.e_form).find(d.r.s.name);
+            d.r.ele.e_pwd = $(d.r.s.e_form).find(d.r.s.pwd);
+            d.r.ele.e_pwd2 = $(d.r.s.e_form).find(d.r.s.pwd2);
+            //登录
+            d.l.ele.name = $(d.l.s.form).find(d.l.s.name);
+            d.l.ele.pwd = $(d.l.s.form).find(d.l.s.pwd);
+        },
+        bind:function(){
+            $("#countDown" ).html( d.var.countDown);
+            //点击发送验证码
+            $('.get_vcode_btn').on('click', function(){
+                var phone = d.r.ele.phone.val();
+                if(!vldMobile(phone)){
+                    d.reminder( d.r.s.error,"请输入正确的手机号");
+                    return ;
+                };
+                if(!d.c.isUnique("phone",phone)){
+                    d.reminder( d.r.s.error,"该手机已经使用过");
+                    return ;
+                }
+                $("#codeImg").click();
+                $("#verificationBtn2").hide();
+                $("#verificationBtn").show();
+                $("#verificationWindow" ).show();
+
+            });
+            $( d.l.s.login ).bind("click", function(){
+                $.login_dialog({
+                    data: {
+                        username : $.trim(d.l.ele.name.val()),
+                        password : $.trim(d.l.ele.pwd.val()),
+                        nl : d.var.rm
+                    }
+                });
+            });
+            $( d.r.s.e_regist).bind("click", function(){
+                if( !d.var.can)
+                    return;
+                $.reg_email_dialog({
+                    data: {
+                        email : $.trim(d.r.ele.email.val()),
+                        username : $.trim(d.r.ele.e_name.val()),
+                        password : $.trim(d.r.ele.e_pwd.val()),
+                        vcode:$("#vcode" ).val()
+                    }
+                });
+            });
+            $( d.r.s.p_regist).bind("click", function(){
+                $.reg_phone_dialog({
+                    data: {
+                        phone : $.trim(d.r.ele.phone.val()),
+                        code : $.trim(d.r.ele.code.val()),
+                        username : $.trim(d.r.ele.p_name.val()),
+                        password : $.trim(d.r.ele.p_pwd.val())
+                    }
+                });
+            });
+            $( d.l.s.rm ).click(function(){
+                d.var.rm = ! d.var.rm;
+            });
+        },
+        init:function(){
+            d.bindEle();
+            d.bind();
+            //登录
+            $.login_init({
+                url : d.route.login,
+                vld : function(){
+                    var sub = true;
+                        if($.trim(d.l.ele.name.val()) == ""
+                        || $.trim(d.l.ele.pwd.val()) == ""){
+                        d.reminder(d.l.s.error, "请输入账号密码");
+                        sub = sub && false;
+                    }
+                    if(sub && $(d.l.s.error).css('height') != '0px'){
+                        $(d.l.s.error).animate({height:'0px'}, 0, function(){$(this ).html("");});
+                    }
+                    return sub;
+                },
+                callback: function(status){
+                    if(status == 1){
+                        location.reload();
+                    }
+                }
+            });
+            //邮箱注册
+            $.reg_email_init({
+                url : d.route.email_reg,
+                vld : function(){
+                    var email = $.trim( d.r.ele.email.val());
+                    var name = d.r.ele.e_name.val();
+                    var pwd = d.r.ele.e_pwd.val();
+                    var pwd2 = d.r.ele.e_pwd2.val();
+                    var sub = true;
+                    if( email == "" || !vldEmail(email)){
+                        d.reminder(d.r.s.error,"请输入正确的邮箱");
+                        sub = sub && false;
+                    }else if(!vldValid(email,name,pwd,pwd2)){
+                        d.reminder(d.r.s.error,"请输入完整信息");
+                        sub = sub && false;
+                    }else if(pwd != pwd2){
+                        d.reminder(d.r.s.error,"两次密码输入不一致");
+                        sub = sub && false;
+                    } else if ( ! vldPwd ( pwd ) ) {
+                        d.reminder ( d.r.s.error, "密码由6-16位数字，字母组成" ) ;
+                        sub = sub && false ;
+                    } else if ( ! vldName ( name ) ) {
+                        d.reminder ( d.r.s.error, "用户名2-9位，不能包含特殊字符" ) ;
+                        sub = sub && false ;
+                    } else if(!d.c.isUnique("nick",$.trim(name))){
+                        d.reminder(d.r.s.error,"用户名已存在");
+                        sub = sub && false;
+                    }else if(!d.c.isUnique("email",email)){
+                        d.reminder(d.r.s.error,"同一邮箱只能注册一次");
+                        sub = sub && false;
+                    }
+                    if(sub && $(d.r.s.error).css('height') != '0px'){
+                        $(d.r.s.error).animate({height:'0px'}, 0, function(){$(this ).html("");});
+                    }
+                        return sub;
+                    },
+                callback: function(result){
+                    if(result.sta == 1){
+                        $("#reg_email_dialog" ).unbind("click");
+                        var email = $.trim(d.r.ele.email.val());
+                        var tprm="user_id="+email;
+                        __ozfac2(tprm,"#regok");
+                        setTimeout(function(){},200);
+                        var href = "http://mail." + email.substring(email.indexOf(at)+1);
+                        $( d.r.s.e_form ).find("input").remove();
+                        $( d.r.s.e_form ).find("a").remove();
+                        $( d.r.s.e_form ).find("p").remove();
+                        $( d.r.s.e_form ).prepend(
+                            "<a href='"+href+"' class='bGreen2 cWhite form_btn' target='_blank'>注册成功，立即激活</a>");
+                        jQuery.style($( d.r.s.e_form ).parent(),"padding-bottom","30px");
+                    }else{
+                        d.reminder(d.r.s.error, result.msg);
+                    }
+                }
+            });
+            //手机注册
+            $.reg_phone_init({
+                url : d.route.phone_reg ,
+                vld : function(){
+                    var sub = true;
+                    var phone = d.r.ele.phone.val();
+                    var name = d.r.ele.p_name.val();
+                    var pwd = d.r.ele.p_pwd.val();
+                    var pwd2 = d.r.ele.p_pwd2.val();
+                    var code = d.r.ele.code.val();
+                    if( $.trim(phone) == "" || !vldMobile(phone)){
+                        d.reminder(d.r.s.error,"请输入正确的手机号");
+                        sub = sub && false;
+                    }else if( !vldValid(phone,name,pwd,pwd2,code)){
+                        d.reminder(d.r.s.error,"请输入完整信息");
+                        sub = sub && false;
+                    }else if( pwd != pwd2){
+                        d.reminder(d.r.s.error,"两次密码输入不一致");
+                        sub = sub && false;
+                    } else if ( ! vldPwd ( pwd ) ) {
+                        d.reminder ( d.r.s.error, "密码由6-16位数字，字母组成" ) ;
+                        sub = sub && false ;
+                    } else if ( ! vldName ( name ) ) {
+                        d.reminder ( d.r.s.error, "用户名2-9位，不能包含特殊字符" ) ;
+                        sub = sub && false ;
+                    } else if(!d.c.isUnique("nick",$.trim(name))) {
+                        d.reminder ( d.r.s.error, "用户名已存在" ) ;
+                        sub = sub && false ;
+                    }else if(!d.c.isUnique("phone",$.trim(name))){
+                        d.reminder(d.r.s.error,"同一手机只能注册一次");
+                        sub = sub && false;
+                    }
+                    if(sub && $(d.r.s.error ).css('height') != '0px'){
+                        $(d.r.s.error).animate({height:'0px'}, 0, function(){$(this ).html("");});
+                    }
+                    return sub;
+                },
+                callback: function(result){
+                    if( result.sta == 1){
+                        $("#reg_phone_dialog" ).unbind("click");
+                        var phone = $.trim(d.r.ele.phone.val());
+                        var tprm="user_id="+phone;
+                        __ozfac2(tprm,"#regok");
+                        setTimeout(function(){location.reload();},200);
+                    }
+                }
+            });
+            //重新发送邮件
+            $(document).on("click",".resend",function(){
+                var uid = $ ( ".resend" ).attr ( "id" ) ;
+                $.ajax({
+                    url:"/regist/resend/"+uid,
+                    type:"get",
+                    success:function(result){
+                        if(result.sta == 1){
+                            alert("发送成功");
+                        }else{
+                            alert("发送失败");
+                        }
+                    }
+                });
+            });
+
+        }
+    }
+    d.init();
+</script>
+<div class="add_post_window">
+<div class="container">
+<div class="rich_content clear_fix">
+<div class="rich_top_con clear_fix">
+<div class="avatar fl"> </div>
+<div class="rich_action fl">
+<span class="tag_lable clear_fix">
+<a href="javascript:;" class="chose_tag" style="background: #4a87dc;"><span>选择标签</span></a>
+</span>
+<p><span>话题标题：</span><input type="text" placeholder="话题标题" class="post_title" id="discussionTitle"></p>
+<ul class="rich_controls">
+<li class="item_minimize fl">
+<button title="最小化">
+<i class="fa fa-fw fa-minus"></i>
+</button>
+</li>
+<li class="item_fullScreen fl">
+<button title="全屏">
+<i class="fa fa-fw fa-expand"></i>
+</button>
+</li>
+<li class="item_close fl">
+<button title="关闭">
+<i class="fa fa-fw fa-times"></i>
+</button>
+</li>
+</ul>
+</div>
+</div>
+<div class="rich_main fl">
+<div class="rich_warp">
+<div class="rich_simditor">
+<textarea id="rich_simditor"></textarea>
+</div>
+<div class="add_post_submit">
+<button class="add_btn btn bGreen" id="createDiscussionUse">提交发布</button>
+<button class="add_btn btn bGreen" id="createPostUse" style="display : none ;">提交回复</button>
+<button class="add_btn btn bGreen" id="editPostUse" style="display : none ;">提交修改</button>
+<label class="error_msg"></label>
+</div>
+</div>
+</div>
+<div class="rich_moudle"></div>
+</div>
+</div>
+</div>
+<form id="discussionTextDialogForm" action="/discussion/create_discussion" method="post" style="display: none;">
+<input type="hidden" name="resourceid" value=""/>
+<input type="hidden" name="tags" value=""/>
+<input type="hidden" name="title" value=""/>
+<input type="hidden" name="content" value=""/>
+<input type="hidden" name="type" value="sty"/>
+</form>
+<form id="createPostTextDialogForm" action="http://bbs.newbieol.com/create_post" method="post" style="display: none;">
+<input type="hidden" name="discussionid" value=""/>
+<input type="hidden" name="postid" value=""/>
+<input type="hidden" name="content" value=""/>
+<input type="hidden" name="reply" value="false"/>
+</form>
+<form id="editPostTextDialogForm" action="http://bbs.newbieol.com/edit_post" method="post" style="display: none;">
+<input type="hidden" name="discussionid" value=""/>
+<input type="hidden" name="postid" value=""/>
+<input type="hidden" name="content" value=""/>
+</form>
+<script src="/assets/javascripts/module.min.js"></script>
+<script src="/assets/javascripts/hotkeys.min.js"></script>
+<script src="/assets/javascripts/uploader.min.js"></script>
+<script src="/assets/javascripts/simditor.js"></script>
+<script type="text/javascript">
+// 初始化服文本编辑器
+var editor = new Simditor({
+    textarea: $('#rich_simditor'),
+    placeholder: '说点什么吧···',
+    upload: {
+        url : '/upload/upload_image', // 文件上传的接口地址
+        fileKey: 'fileDataFileName', // 服务器端获取文件数据的参数名
+        connectionCount: 3,
+        leaveConfirm: '正在上传文件'
+    },
+    pasteImage : true,
+    toolbar: [
+        'bold',
+        'color',
+        'strikethrough',
+        'blockquote',
+        'code',
+        'link',
+        'image'
+    ],
+    codeLanguages : [
+        { name: 'C++', value: 'c++' },
+        { name: 'C#', value: 'cs' },
+        { name: 'CSS', value: 'css' },
+        { name: 'Less', value: 'less' },
+        { name: 'CoffeeScript', value: 'coffeescript' },
+        { name: 'HTML,XML', value: 'html' },
+        { name: 'JSON', value: 'json' },
+        { name: 'Java', value: 'java' },
+        { name: 'JavaScript', value: 'js' },
+        { name: 'Objective C', value: 'oc' },
+        { name: 'PHP', value: 'php' },
+        { name: 'Python', value: 'python' },
+        { name: 'Ruby', value: 'ruby' },
+        { name: 'SQL', value: 'sql'}
+    ],
+    tabIndent : true
+});
+//创建话题
+$('#createDiscussionUse').click(function(){
+    var title = $.trim(eval(document.getElementById('discussionTitle')).value);
+    var content = $.trim(editor.getValue());
+    if(title.length>30){
+        $('.error_msg' ).text("标题太长，请输入30个字以内的标题！");
+        return;
+        }
+    if(content.length>5000){
+        $('.error_msg' ).text("内容过长！");
+        return;
+    }
+    if((content == '') || (title == '') || ($ ( "#discussionTextDialogForm input[name='tags']" ).attr("value") == '')){
+        $('.error_msg' ).text("标题、内容和标签都不能是空的！");
+        return;
+    }
+    $("#discussionTextDialogForm input[name='content']" ).val(editor.getValue());
+    $("#discussionTextDialogForm input[name='title']" ).val(eval(document.getElementById('discussionTitle')).value);
+    var ajax_url = $("#discussionTextDialogForm").attr('action');
+    var ajax_type = $("#discussionTextDialogForm").attr('method');
+$.ajax({
+type:ajax_type,
+url:ajax_url,
+data:{
+content:$("#discussionTextDialogForm input[name='content']" ).val(),
+title:$("#discussionTextDialogForm input[name='title']" ).val(),
+tags:$("#discussionTextDialogForm input[name='tags']" ).val(),
+type:$("#discussionTextDialogForm input[name='type']" ).val(),
+resourceid:$("#discussionTextDialogForm input[name='resourceid']" ).val()
+},
+success:function(msg){
+alert(msg);
+$('.add_post_window').slideUp();
+$("#discussionTextDialogForm input[name='content']" ).val("");
+$("#discussionTextDialogForm input[name='title']" ).val("");
+$("#discussionTitle").val("");
+editor.setValue("");
+ReplDiscussions(menu.vars.resId,1);
+}
+});
+})
+//创建回复
+$('#createPostUse').click(function(){
+    var content = $.trim(editor.getValue());
+    if(content == ''){
+        $('.error_msg' ).text("内容不能是空的！");
+        return;
+    }
+    $("#createPostTextDialogForm input[name='content']" ).val(editor.getValue());
+    $("#createPostTextDialogForm input[name='discussionid']" ).val($('#createpost' ).attr("value"));
+    $("#createPostTextDialogForm" ).submit();
+})
+//编辑回复
+$('#editPostUse').click(function(){
+    var content = $.trim(editor.getValue());
+    if(content == ''){
+        $('.error_msg' ).text("内容不能是空的！");
+        return;
+    }
+    $("#editPostTextDialogForm input[name='discussionid']" ).val($('#createpost' ).attr("value"));
+    $("#editPostTextDialogForm input[name='content']" ).val(editor.getValue());
+    $("#editPostTextDialogForm" ).submit();
+})
+
+// 点击最小化
+$('.item_minimize').on('click', function(){
+    $('.add_post_window').removeClass('fullScreen').addClass('minimize');
+});
+// 点击全屏显示
+$('.item_fullScreen').on('click', function(){
+    if($('.add_post_window').hasClass('fullScreen')){
+        $('.add_post_window').removeClass('fullScreen');
+        $('.rich_simditor').animate({ 'height' : 200 } );
+        $('.simditor-body').animate({ 'height' : 150 } );
+    }else{
+        $('.add_post_window').removeClass('minimize').addClass('fullScreen');
+        var simdirorHeight = window.innerHeight - $('.rich_action').outerHeight() - $('.add_post_submit').outerHeight() - 50;
+        $('.rich_simditor').animate({ 'height' : simdirorHeight } );
+        $('.simditor-body').animate({ 'height' : simdirorHeight - 51 } );
+    }
+});
+// 点击关闭发帖框
+$('.item_close').on('click', function(){
+    editor.setValue("");
+    $("#createPostTextDialogForm input[name='reply']" ).val("false");
+    $('.add_post_window').slideUp();
+});
+// 点击发帖
+$('.create_new_discussion').on('click', function(){
+$('.add_post_window').slideDown();
+});
+//点击回复
+$('.create_new_post').on('click', function(){
+$ ( ".rich_action .tag_lable a" ).remove();
+$(".tag_lable .discussiontag" ).each(function ( ) {$ ( ".rich_action .tag_lable" ).append('<a href="javascript:;" class="tag" style="background:' + $ ( this ).css ( "background" ) + '"><span>' + $ ( this ).text ( ) + '</span></a>')});
+$("#discussionTitle" ).val($(".discussiontitle" ).text())
+$("#discussionTitle" ).attr("readOnly",true);
+$("#createDiscussionUse" ).hide();
+$("#createPostUse" ).show();
+$("#editPostUse" ).hide();
+$('.add_post_window').slideDown();
+});
+
+$('.rich_moudle').on('click', function(){
+    $('.add_post_window').removeClass('minimize');
+});
+
+//点击楼层回复
+    function doReplyPost(postid,nick){
+    $ ( ".rich_action .tag_lable a" ).remove();
+    $(".tag_lable .discussiontag" ).each(function ( ) {$ ( ".rich_action .tag_lable" ).append('<a href="javascript:;" class="tag" style="background:' + $ ( this ).css ( "background" ) + '"><span>' + $ ( this ).text ( ) + '</span></a>')});
+    $("#discussionTitle" ).val($(".discussiontitle" ).text())
+    editor.setValue("回复 " + nick + "：");
+    $("#createPostTextDialogForm input[name='reply']" ).val("true");
+    $("#createPostTextDialogForm input[name='postid']" ).val(postid);
+    $("#discussionTitle" ).attr("readOnly",true);
+    $("#createDiscussionUse" ).hide();
+    $("#createPostUse" ).show();
+    $("#editPostUse" ).hide();
+    $('.add_post_window').slideDown();
+    }
+
+//点击编辑回复
+function doEditPost(postid,postcontent){
+$ ( ".rich_action .tag_lable a" ).remove();
+$(".tag_lable .discussiontag" ).each(function ( ) {$ ( ".rich_action .tag_lable" ).append('<a href="javascript:;" class="tag" style="background:' + $ ( this ).css ( "background" ) + '"><span>' + $ ( this ).text ( ) + '</span></a>')});
+$("#discussionTitle" ).val($(".discussiontitle" ).text());
+$("#discussionTitle" ).attr("readOnly",true);
+$("#editPostTextDialogForm input[name='postid']" ).val(postid);
+editor.setValue(postcontent);
+$("#createDiscussionUse" ).hide();
+$("#createPostUse" ).hide();
+$("#editPostUse" ).show();
+$('.add_post_window').slideDown();
+}
+
+//点击删除回复
+function doDelPost(postid){
+if (confirm("删除操作不可逆，确认要删除？")) {
+$.ajax({
+url:"/post/del/"+postid,
+type:"get",
+success:function(result){
+    if(result.sta == 1){
+        location.reload();
+    }
+    if(result.sta == 0){
+        alert(result.msg);
+    }
+}
+});
+}
+}
+</script>
+<div class="pop_up_window alert_window" style="display: none">
+<a href="javascript:;" class="close_window"><i class="fa fa-times"></i></a>
+<h4>
+<p class="clear_fix msg_title right_msg" style="display: none">
+<span class="f24"><i class="fa fa-check-circle"></i></span>
+<span>提示</span>
+</p>
+<p class="clear_fix msg_title wwarning_msg" style="display: none">
+<span class="f24"><i class="fa fa-exclamation-circle"></i></span>
+<span>提示</span>
+</p>
+<p class="clear_fix msg_title error_msg" style="display: none">
+<span class="f24"><i class="fa fa-times-circle"></i></span>
+<span>提示</span>
+</p>
+</h4>
+<div class="alert_con">
+<div class="alert_msg">
+<p class="tc f14"><span></span></p>
+</div>
+</div>
+<div class="tc">
+<button class="btn bGreen2 cWhite msg_pop_btn">确定</button>
+</div>
+</div>
+<div class="shade_box alert_window_shadow" style="display: none"></div>
+<div class="draw_black"></div>
+<script> $('.msg_pop_btn').click(function(){ $(this).parents('.pop_up_window').fadeOut().next('.shade_box').fadeOut(); }); </script>
+<script type="text/javascript" charset="utf-8" src="http://lead.soperson.com/20000649/10050559.js"></script>
+<div class="sideBox">
+<a href="javascript:consult();" class="sideBoxPic leyu"><i class="fa fa-headphones"></i></a>
+<a href="javascript:;" class="sideBoxPic inquire_phone"><i class="fa fa-phone"></i></a>
+<a href="javascript:;" class="sideBoxPic erweiPic"><i class="fa fa-qrcode"></i></a>
+<a href="javascript:;" class="sideBoxPic feedbackPic j-userBack"><i class="fa fa-commenting"></i></a>
+<a href="javascript:;" class="sideBoxPic gotoTop"><i class="fa fa-arrow-up"></i></a>
+<div class="erweiPicBox"><img src="/assets/images/erweiPicBox.png"></div>
+<div class="inquirePhoneBox f18"><i class="fa fa-phone"></i> 400-877-8190</div>
+</div>
+<div class="pop_up_window feedbackBox" style="display:none;">
+<a href="javascript:;" class="close_window"><i class="fa fa-times"></i></a>
+<div class="pop_window_con">
+<div class="pop_up_title">
+<h3 class="wTit">用户反馈</h3>
+</div>
+<textarea class="tTextarea" placeholder="有什么对我们说的"></textarea>
+<div class="feedbackBoxReg">
+登录后反馈
+<a href="javascript:;" class="j-login cGreen ml10 login_btn">登录</a>
+<span class="vLine">|</span>
+<a class="cGreen register_btn" href="javascript:;">注册</a>
+</div>
+</div>
+<div class="wBtnBar">
+<a class="btn mBtn bGreen cWhite" id="feedback" href="javascript:void(0);">提交</a>
+<a class="btn mBtn bGray cGray3" id="feedback_cancel" href="javascript:void(0);">取消</a>
+</div>
+</div>
+<div class="shade_box"></div>
+<script type="text/javascript"> function consult(){ $ ( "#looyu_dom_1").trigger("click"); } $ ( "#feedback" ).bind("click", function(){ var feedback = $(".feedbackBox .tTextarea" ).val(); if ( $.trim(feedback) == ""){ alertWindow(1, "请填写反馈内容"); return ; }
+        $.ajax({ url : "/feedback", type : "POST", data : { content: feedback}, dataType : "json",
+            success: function(data){ alertWindow ( data.sta, data.msg); if ( data.sta == 1){ $ ( ".feedbackBox .tTextarea" ).val(""); $ ( '.feedbackBox' ).hide(); $ ( '.feedbackBox' ).next(".shade_box").hide(); } },
+            error: function(data){ alertWindow ( - 1, "系统错误"); } } ) ; } ) ; $ ( "#feedback_cancel" ).bind("click", function(){ $ ( ".feedbackBox .tTextarea" ).val(""); $ ( this ).parents('.pop_up_window').fadeOut().next('.shade_box').fadeOut(); } ) ; </script>
+<input type="hidden" id="lL_nick" value=""/>
+<script> var _ozuid = '匿名'; if ($("#lL_nick" ).val() != null && $("#lL_nick" ).val() != ''){ _ozuid = $("#lL_nick" ).val(); } </script>
+<script type="text/javascript" src="/assets/javascripts/o_code.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+var hm = document.createElement("script");
+hm.src = "//hm.baidu.com/hm.js?dd9cd609f363eb13d2dafc8e57713ba9";
+var s = document.getElementsByTagName("script")[0];
+s.parentNode.insertBefore(hm, s);
+})();
+</script>
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-68696950-1', 'auto');
+ga('send', 'pageview');
+
+</script>
+<script> window._bd_share_config = { "common": { "bdSnsKey": {}, "bdText": "", "bdMini": "2", "bdMiniList": false, "bdPic": "", "bdStyle": "0", "bdSize": "16" }, "slide": { "type": "slide", "bdImg": "6", "bdPos": "left", "bdTop": "150" } };
+with (document)0[(getElementsByTagName('head')[0] || body).appendChild(createElement('script')).src = 'http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion=' + ~(-new Date() / 36e5)];</script>
+<script> $ ( window ).scroll ( function ( ) { var top = $ ( window ).scrollTop ( ) ; var lableTop = $ ( '.wid' ).offset ( ).top - $ ( 'header' ).outerHeight ( ) - 35 ; if ( top > 0 ) { $ ( 'body' ).addClass ( 'scolled' ) ; } else { $ ( 'body' ).removeClass ( 'scolled' ) ; } } ) ; </script>
+</body>
+</html>
+<script>
+    $(document ).ready(function(){
+        var searchFunc = function(condition){
+            if(condition!=null && condition!=""){
+                var data = encodeURIComponent(condition);
+                window.location.replace("/search_1.html?condition=" + data,"_blank");
+            }else{
+                return;
+            }
+        }
+        //搜索按钮点击
+        $(".search_btn" ).bind("click",function(){
+            var condition = $("#condition" ).val( ).trim();
+            searchFunc(condition);
+        });
+        //整个页面的回车监听
+        $(document ).keyup(function(e){
+            var curKey = e.which;
+            if(curKey==13){
+                var condition = $("#condition" ).val( ).trim();
+                searchFunc(condition);
+            }
+        })
+        //搜索框的回车监听
+        $("#condition" ).keyup(function(e){
+            var curKey = e.which;
+            if(curKey==13){
+                $(".search_btn" ).click();
+            }
+        });
+    })
+</script>
